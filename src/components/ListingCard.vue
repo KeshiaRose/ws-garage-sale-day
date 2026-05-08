@@ -36,15 +36,15 @@ const TAG_COLORS = {
   'Jewelry & Accessories': 'bg-pink-100 text-pink-700',
   'Food & Treats': 'bg-lime-100 text-lime-700',
   'Pet Supplies': 'bg-emerald-100 text-emerald-700',
-  'Free / PWYW':        'bg-green-200 text-green-800',
+  'Free / PWYW': 'bg-green-200 text-green-800',
   'Movies & Entertainment': 'bg-blue-100 text-blue-700',
-  'Appliances':         'bg-zinc-100 text-zinc-700',
+  'Appliances': 'bg-zinc-100 text-zinc-700',
   'Holiday & Seasonal': 'bg-rose-200 text-rose-800',
-  'Cycling':            'bg-cyan-100 text-cyan-700',
-  'Collectibles':       'bg-amber-200 text-amber-800',
-  'Office & School':    'bg-sky-200 text-sky-800',
-  'Automotive':         'bg-gray-200 text-gray-700',
-  'Mixed Bag':          'bg-stone-100 text-stone-500',
+  'Cycling': 'bg-cyan-100 text-cyan-700',
+  'Collectibles': 'bg-amber-200 text-amber-800',
+  'Office & School': 'bg-sky-200 text-sky-800',
+  'Automotive': 'bg-gray-200 text-gray-700',
+  'Miscellaneous': 'bg-stone-100 text-stone-500',
 }
 
 function highlight(text) {
@@ -113,8 +113,7 @@ async function copyAddress() {
             class="shrink-0 text-xs font-bold tabular-nums border rounded-lg px-1.5 py-0.5 leading-none mt-px"
             v-html="'#' + highlightedSaleNum" />
           <span :class="isDark ? 'text-white' : 'text-stone-900'"
-            class="font-semibold text-sm leading-snug flex-1 min-w-0"
-            v-html="highlightedAddress" />
+            class="font-semibold text-sm leading-snug flex-1 min-w-0" v-html="highlightedAddress" />
           <button @click.stop="emit('save')"
             :class="isSaved ? 'text-coral' : isDark ? 'text-white/30 hover:text-coral' : 'text-stone-300 hover:text-coral'"
             class="shrink-0 cursor-pointer transition-colors -mt-0.5 -mr-0.5"

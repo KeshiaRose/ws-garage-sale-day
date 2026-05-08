@@ -59,17 +59,17 @@ watch(() => props.isDark, (dark) => {
   tileLayer.addTo(map)
 })
 
-watch(() => props.selectedId, (id) => {
+watch(() => props.selectedId, (saleNum) => {
   if (prevSelectedId !== null && markerMap[prevSelectedId]) {
     const wasSaved = props.savedIds?.has(prevSelectedId) ?? false
     markerMap[prevSelectedId].setIcon(makeIcon(false, wasSaved))
   }
-  if (id !== null && markerMap[id]) {
-    const isSaved = props.savedIds?.has(id) ?? false
-    markerMap[id].setIcon(makeIcon(true, isSaved))
-    markerMap[id].openPopup()
+  if (saleNum !== null && markerMap[saleNum]) {
+    const isSaved = props.savedIds?.has(saleNum) ?? false
+    markerMap[saleNum].setIcon(makeIcon(true, isSaved))
+    markerMap[saleNum].openPopup()
   }
-  prevSelectedId = id
+  prevSelectedId = saleNum
 })
 
 function makeTileLayer(dark) {
@@ -110,8 +110,8 @@ function renderMarkers() {
   prevSelectedId = null
 
   for (const listing of props.listings) {
-    const isSelected = listing.id === props.selectedId
-    const isSaved = props.savedIds?.has(listing.id) ?? false
+    const isSelected = listing.saleNumber === props.selectedId
+    const isSaved = props.savedIds?.has(listing.saleNumber) ?? false
     const marker = L.marker([listing.lat, listing.lng], { icon: makeIcon(isSelected, isSaved) })
 
     const num = String(listing.saleNumber).padStart(3, '0')
@@ -125,9 +125,9 @@ function renderMarkers() {
       { maxWidth: 300 }
     )
 
-    marker.on('click', () => emit('select', listing.id))
+    marker.on('click', () => emit('select', listing.saleNumber))
     markerGroup.addLayer(marker)
-    markerMap[listing.id] = marker
+    markerMap[listing.saleNumber] = marker
   }
 }
 </script>

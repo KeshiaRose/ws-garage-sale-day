@@ -43,7 +43,7 @@ function moveSaved(id, dir) {
 }
 
 const listings = allListings.filter(l => !l.canceled).map(l => {
-  const ov = tagOverrides[String(l.id)]
+  const ov = tagOverrides[String(l.saleNumber)]
   if (!ov) return l
   let tags = [...l.tags]
   if (ov.remove) tags = tags.filter(t => !ov.remove.includes(t))
@@ -108,7 +108,7 @@ const TAG_ORDER = [
   'Sports & Outdoors', 'Cycling', 'Automotive',
   'Plants & Garden', 'Pet Supplies',
   'Food & Treats', 'Free / PWYW',
-  'Office & School', 'Holiday & Seasonal', 'Mixed Bag',
+  'Office & School', 'Holiday & Seasonal', 'Miscellaneous',
 ]
 
 const allTags = Object.keys(tagFreq)
@@ -150,12 +150,15 @@ const filteredListings = computed(() => {
     })
 })
 
-const listingById = Object.fromEntries(listings.map(l => [l.id, l]))
+const listingById = Object.fromEntries(listings.map(l => [l.saleNumber, l]))
 
 const displayedListings = computed(() => {
-  if (activeTab.value === 'route') {
-    const filteredIds = new Set(filteredListings.value.map(l => l.id))
-    return savedOrder.value.filter(id => filteredIds.has(id)).map(id => listingById[id])
+  const filteredSaleNums = new Set(filteredListings.value.map(l => l.saleNumber))
+  if (activeTab.value === 'favorites') {
+    return savedOrder.value.filter(sn => filteredSaleNums.has(sn)).map(sn => listingById[sn]).filter(Boolean)
+  }
+  if (activeTab.value === 'lists' && activeList.value) {
+    return activeList.value.ids.filter(sn => filteredSaleNums.has(sn)).map(sn => listingById[sn]).filter(Boolean)
   }
   return filteredListings.value
 })
@@ -179,6 +182,91 @@ const showModal = ref(!localStorage.getItem('seenIntro'))
 function closeModal() {
   showModal.value = false
   localStorage.setItem('seenIntro', '1')
+}
+
+// Lists
+const savedLists = ref(JSON.parse(localStorage.getItem('savedLists') ?? '[]'))
+const activeList = ref(null)
+const showCreateListModal = ref(false)
+const newListName = ref('')
+const createListCopied = ref(false)
+const copiedListName = ref(null)
+const pendingImport = ref(null)
+const showDuplicatePrompt = ref(false)
+
+function persistLists() {
+  localStorage.setItem('savedLists', JSON.stringify(savedLists.value))
+}
+
+function shareUrl(list) {
+  return `${window.location.origin}${window.location.pathname}?list=${encodeURIComponent(list.name)}&ids=${list.ids.join(',')}`
+}
+
+async function createList() {
+  const name = newListName.value.trim().slice(0, 40)
+  if (!name || savedOrder.value.length === 0) return
+  const newList = { name, ids: [...savedOrder.value] }
+  const idx = savedLists.value.findIndex(l => l.name === name)
+  if (idx >= 0) savedLists.value[idx] = newList
+  else savedLists.value = [...savedLists.value, newList]
+  persistLists()
+  await navigator.clipboard.writeText(shareUrl(newList))
+  createListCopied.value = true
+  setTimeout(() => { createListCopied.value = false }, 2000)
+}
+
+async function copyShareUrl(list) {
+  await navigator.clipboard.writeText(shareUrl(list))
+  copiedListName.value = list.name
+  setTimeout(() => { copiedListName.value = null }, 2000)
+}
+
+function deleteList(name) {
+  savedLists.value = savedLists.value.filter(l => l.name !== name)
+  if (activeList.value?.name === name) activeList.value = null
+  persistLists()
+}
+
+function applyImport(name, ids) {
+  const newList = { name, ids }
+  const idx = savedLists.value.findIndex(l => l.name === name)
+  if (idx >= 0) savedLists.value[idx] = newList
+  else savedLists.value = [...savedLists.value, newList]
+  persistLists()
+  activeTab.value = 'lists'
+  activeList.value = newList
+  window.history.replaceState({}, '', window.location.pathname)
+}
+
+function confirmImportNew() {
+  let name = pendingImport.value.name
+  let suffix = 2
+  while (savedLists.value.find(l => l.name === name)) name = `${pendingImport.value.name} ${suffix++}`
+  applyImport(name, pendingImport.value.ids)
+  showDuplicatePrompt.value = false
+  pendingImport.value = null
+}
+
+function confirmImportUpdate() {
+  applyImport(pendingImport.value.name, pendingImport.value.ids)
+  showDuplicatePrompt.value = false
+  pendingImport.value = null
+}
+
+// Handle shared list URL on load
+const urlParams = new URLSearchParams(window.location.search)
+const importName = urlParams.get('list')
+const importIdsRaw = urlParams.get('ids')
+if (importName && importIdsRaw) {
+  const importIds = importIdsRaw.split(',').map(Number).filter(sn => !!listingById[sn])
+  if (importIds.length > 0) {
+    if (savedLists.value.find(l => l.name === importName)) {
+      pendingImport.value = { name: importName, ids: importIds }
+      showDuplicatePrompt.value = true
+    } else {
+      applyImport(importName, importIds)
+    }
+  }
 }
 </script>
 
@@ -216,8 +304,8 @@ function closeModal() {
         <div class="text-right">
           <p class="text-coral font-bold text-xl leading-none tabular-nums">{{ displayedListings.length }}</p>
           <p class="text-white/40 text-xs mt-0.5">
-            {{ activeTab === 'route' ? 'favorited' : filteredListings.length === listings.length ? 'sales' : `of
-            ${listings.length}` }}
+            {{ activeTab === 'favorites' ? 'favorited' : activeTab === 'lists' && activeList ? 'in list' :
+              filteredListings.length === listings.length ? 'sales' : `of ${listings.length}` }}
           </p>
         </div>
         <!-- GitHub link -->
@@ -254,8 +342,8 @@ function closeModal() {
       <div class="flex gap-2">
         <div class="relative flex-1">
           <svg :class="isDark ? 'text-white/30' : 'text-stone-400'"
-            class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none" fill="none" stroke="currentColor"
-            viewBox="0 0 24 24">
+            class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none" fill="none"
+            stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
@@ -319,45 +407,148 @@ function closeModal() {
           ]">
             All Sales
           </button>
-          <button @click="activeTab = 'route'" :class="[
+          <button @click="activeTab = 'favorites'" :class="[
             'flex-1 py-2.5 text-sm font-semibold transition-colors border-b-2 -mb-px flex items-center justify-center gap-1.5 cursor-pointer',
-            activeTab === 'route'
+            activeTab === 'favorites'
               ? 'border-coral text-coral'
               : isDark ? 'border-transparent text-white/40 hover:text-white/70' : 'border-transparent text-stone-400 hover:text-stone-600'
           ]">
             Favorites
             <span v-if="savedIds.size > 0"
-              :class="activeTab === 'route' ? 'text-coral' : isDark ? 'text-white/40' : 'text-stone-400'"
+              :class="activeTab === 'favorites' ? 'text-coral' : isDark ? 'text-white/40' : 'text-stone-400'"
               class="text-xs font-bold tabular-nums">
               ({{ savedIds.size }})
             </span>
+          </button>
+          <button @click="activeTab = 'lists'; activeList = null" :class="[
+            'flex-1 py-2.5 text-sm font-semibold transition-colors border-b-2 -mb-px flex items-center justify-center gap-1.5 cursor-pointer',
+            activeTab === 'lists'
+              ? 'border-coral text-coral'
+              : isDark ? 'border-transparent text-white/40 hover:text-white/70' : 'border-transparent text-stone-400 hover:text-stone-600'
+          ]">
+            Lists
+            <span v-if="savedLists.length > 0"
+              :class="activeTab === 'lists' ? 'text-coral' : isDark ? 'text-white/40' : 'text-stone-400'"
+              class="text-xs font-bold tabular-nums">
+              ({{ savedLists.length }})
+            </span>
+          </button>
+        </div>
+
+        <!-- List view header -->
+        <div v-if="activeTab === 'lists' && activeList" class="shrink-0 bg-navy px-3 py-2.5 flex items-center gap-2">
+          <button @click="activeList = null"
+            class="cursor-pointer text-white/50 hover:text-white transition-colors shrink-0">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <div class="flex-1 min-w-0">
+            <p class="text-white/50 text-xs leading-none mb-0.5">Viewing list</p>
+            <p class="text-white font-bold text-sm truncate">{{ activeList.name }}</p>
+          </div>
+          <button @click="copyShareUrl(activeList)"
+            :class="copiedListName === activeList.name ? 'bg-white/20 text-white' : 'text-white/50 hover:text-white hover:bg-white/10'"
+            class="cursor-pointer transition-colors shrink-0 flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1.5 rounded-lg">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+            </svg>
+            {{ copiedListName === activeList.name ? 'Copied!' : 'Share' }}
           </button>
         </div>
 
         <!-- Cards -->
         <div :class="isDark ? 'scrollbar-dark' : 'scrollbar-light'"
           class="flex-1 overflow-y-auto p-3 pb-20 md:pb-3 space-y-2">
-          <template v-if="displayedListings.length > 0">
-            <ListingCard v-for="listing in displayedListings" :key="listing.id" :id="`listing-${listing.id}`"
-              :listing="listing" :searchQuery="correctedQuery" :selected="listing.id === selectedId" :isDark="isDark"
-              :isSaved="savedIds.has(listing.id)" :showReorder="activeTab === 'route'"
-              :canMoveUp="savedOrder.indexOf(listing.id) > 0"
-              :canMoveDown="savedOrder.indexOf(listing.id) < savedOrder.length - 1" @click="selectedId = listing.id"
-              @save="toggleSave(listing.id)" @move-up="moveSaved(listing.id, -1)"
-              @move-down="moveSaved(listing.id, 1)" />
+
+          <!-- Lists overview -->
+          <template v-if="activeTab === 'lists' && !activeList">
+            <button v-if="savedIds.size > 0"
+              @click="showCreateListModal = true; newListName = ''; createListCopied = false"
+              :class="isDark ? 'border-coral/30 text-coral hover:bg-coral/10' : 'border-coral/40 text-coral hover:bg-coral/5'"
+              class="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl border-2 border-dashed font-semibold text-sm transition-colors cursor-pointer">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+              Save Favorites as List
+            </button>
+            <div v-for="list in savedLists" :key="list.name"
+              :class="isDark ? 'bg-dark-card border-dark-border' : 'bg-white border-stone-200'"
+              class="rounded-xl border p-3.5">
+              <div class="flex items-start gap-2">
+                <div class="flex-1 min-w-0">
+                  <p class="font-semibold text-sm truncate" :class="isDark ? 'text-white' : 'text-stone-900'">{{
+                    list.name }}</p>
+                  <p class="text-xs mt-0.5" :class="isDark ? 'text-white/40' : 'text-stone-400'">{{ list.ids.length }}
+                    stops</p>
+                </div>
+                <div class="flex items-center gap-1 shrink-0">
+                  <button @click="activeList = list; activeTab = 'lists'"
+                    :class="isDark ? 'bg-dark-border text-white/70 hover:text-white' : 'bg-stone-100 text-stone-600 hover:text-stone-900'"
+                    class="text-xs font-semibold px-2.5 py-1 rounded-lg transition-colors cursor-pointer">
+                    View
+                  </button>
+                  <button @click="copyShareUrl(list)"
+                    :class="copiedListName === list.name ? 'bg-coral text-white' : isDark ? 'bg-dark-border text-white/70 hover:text-white' : 'bg-stone-100 text-stone-600 hover:text-stone-900'"
+                    class="text-xs font-semibold px-2.5 py-1 rounded-lg transition-colors cursor-pointer">
+                    {{ copiedListName === list.name ? 'Copied!' : 'Share' }}
+                  </button>
+                  <button @click="deleteList(list.name)"
+                    :class="isDark ? 'text-white/20 hover:text-red-400' : 'text-stone-300 hover:text-red-400'"
+                    class="p-1 transition-colors cursor-pointer">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div v-if="savedLists.length === 0" :class="isDark ? 'text-white/40' : 'text-stone-400'"
+              class="text-center py-16">
+              <p class="text-4xl mb-3">📋</p>
+              <p class="font-semibold" :class="isDark ? 'text-white/60' : 'text-stone-500'">No lists yet</p>
+              <p class="text-sm mt-1">Save your Favorites as a named list to share with others</p>
+            </div>
           </template>
-          <div v-else :class="isDark ? 'text-white/40' : 'text-stone-400'" class="text-center py-16">
-            <template v-if="activeTab === 'route'">
-              <p class="text-4xl mb-3">⭐</p>
-              <p class="font-semibold" :class="isDark ? 'text-white/60' : 'text-stone-500'">No saved sales yet</p>
-              <p class="text-sm mt-1">Star sales from the All Sales tab to save your favorites</p>
+
+          <!-- Listing cards (All Sales, Favorites, or List view) -->
+          <template v-else>
+            <button v-if="activeTab === 'favorites' && savedIds.size > 0"
+              @click="showCreateListModal = true; newListName = ''; createListCopied = false"
+              :class="isDark ? 'border-coral/30 text-coral hover:bg-coral/10' : 'border-coral/40 text-coral hover:bg-coral/5'"
+              class="w-full flex items-center justify-center gap-2 py-2 px-4 rounded-xl border-2 border-dashed font-semibold text-sm transition-colors cursor-pointer">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+              </svg>
+              Share Favorites as List
+            </button>
+            <template v-if="displayedListings.length > 0">
+              <ListingCard v-for="listing in displayedListings" :key="listing.saleNumber"
+                :id="`listing-${listing.saleNumber}`" :listing="listing" :searchQuery="correctedQuery"
+                :selected="listing.saleNumber === selectedId" :isDark="isDark"
+                :isSaved="savedIds.has(listing.saleNumber)" :showReorder="activeTab === 'favorites'"
+                :canMoveUp="savedOrder.indexOf(listing.saleNumber) > 0"
+                :canMoveDown="savedOrder.indexOf(listing.saleNumber) < savedOrder.length - 1"
+                @click="selectedId = listing.saleNumber" @save="toggleSave(listing.saleNumber)"
+                @move-up="moveSaved(listing.saleNumber, -1)" @move-down="moveSaved(listing.saleNumber, 1)" />
             </template>
-            <template v-else>
-              <p class="text-4xl mb-3">🏷️</p>
-              <p class="font-semibold" :class="isDark ? 'text-white/60' : 'text-stone-500'">No sales match</p>
-              <p class="text-sm mt-1">Try a different search or clear your filters</p>
-            </template>
-          </div>
+            <div v-else :class="isDark ? 'text-white/40' : 'text-stone-400'" class="text-center py-16">
+              <template v-if="activeTab === 'favorites'">
+                <p class="text-4xl mb-3">⭐</p>
+                <p class="font-semibold" :class="isDark ? 'text-white/60' : 'text-stone-500'">No saved sales yet</p>
+                <p class="text-sm mt-1">Star sales from the All Sales tab to save your favorites</p>
+              </template>
+              <template v-else>
+                <p class="text-4xl mb-3">🏷️</p>
+                <p class="font-semibold" :class="isDark ? 'text-white/60' : 'text-stone-500'">No sales match</p>
+                <p class="text-sm mt-1">Try a different search or clear your filters</p>
+              </template>
+            </div>
+          </template>
+
         </div>
 
       </div>
@@ -458,6 +649,17 @@ function closeModal() {
                 </div>
               </div>
               <div class="flex gap-3">
+                <span class="text-xl shrink-0 mt-0.5">📋</span>
+                <div>
+                  <p class="font-bold text-sm" :class="isDark ? 'text-white' : 'text-stone-900'">Lists</p>
+                  <p class="text-sm mt-0.5" :class="isDark ? 'text-white/60' : 'text-stone-500'">Save your Favorites as
+                    a
+                    named list and share the link with friends or across devices. Opening a shared link automatically
+                    adds
+                    the list to your Lists tab.</p>
+                </div>
+              </div>
+              <div class="flex gap-3">
                 <span class="text-xl shrink-0 mt-0.5">🗺️</span>
                 <div>
                   <p class="font-bold text-sm" :class="isDark ? 'text-white' : 'text-stone-900'">Map</p>
@@ -479,6 +681,87 @@ function closeModal() {
             </button>
           </div>
 
+        </div>
+      </div>
+    </Teleport>
+
+    <!-- Create List modal -->
+    <Teleport to="body">
+      <div v-if="showCreateListModal" class="fixed inset-0 z-[2000] flex items-center justify-center p-4"
+        style="font-family: 'Nunito', system-ui, sans-serif">
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" @click="showCreateListModal = false" />
+        <div :class="isDark ? 'bg-dark-surface' : 'bg-white'"
+          class="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl">
+          <div class="bg-navy px-6 py-4 flex items-center justify-between">
+            <h2 class="text-white font-bold text-lg">Save as List</h2>
+            <button @click="showCreateListModal = false"
+              class="text-white/40 hover:text-white transition-colors cursor-pointer">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          <div class="px-6 py-5 space-y-4">
+            <div>
+              <label class="block text-xs font-semibold mb-1.5" :class="isDark ? 'text-white/60' : 'text-stone-500'">
+                List name <span class="font-normal">({{ newListName.length }}/50)</span>
+              </label>
+              <input v-model="newListName" maxlength="50" type="text" placeholder="e.g. Saturday Morning Route" :class="isDark
+                ? 'bg-dark-card border-dark-border text-white placeholder:text-white/30'
+                : 'bg-cream border-stone-200 text-stone-900 placeholder:text-stone-400'"
+                class="w-full px-3 py-2 text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-coral transition-colors"
+                @keydown.enter="newListName.trim() && createList()" />
+              <p class="text-xs mt-1.5" :class="isDark ? 'text-white/40' : 'text-stone-400'">
+                Saves your {{ savedOrder.length }} favorited stop{{ savedOrder.length === 1 ? '' : 's' }} as a shareable
+                list.
+              </p>
+            </div>
+            <button @click="createList" :disabled="!newListName.trim()" :class="newListName.trim()
+              ? createListCopied ? 'bg-green-500 hover:bg-green-600' : 'bg-coral hover:bg-coral/90'
+              : 'bg-stone-200 text-stone-400 cursor-not-allowed'"
+              class="w-full text-white font-bold py-2.5 rounded-xl cursor-pointer transition-colors flex items-center justify-center gap-2">
+              <svg v-if="createListCopied" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <svg v-else class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+              </svg>
+              {{ createListCopied ? 'Link copied!' : 'Create & Copy Link' }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
+
+    <!-- Duplicate list prompt -->
+    <Teleport to="body">
+      <div v-if="showDuplicatePrompt" class="fixed inset-0 z-[2000] flex items-center justify-center p-4"
+        style="font-family: 'Nunito', system-ui, sans-serif">
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+        <div :class="isDark ? 'bg-dark-surface' : 'bg-white'"
+          class="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl">
+          <div class="bg-navy px-6 py-4">
+            <h2 class="text-white font-bold text-lg">List already exists</h2>
+          </div>
+          <div class="px-6 py-5 space-y-4">
+            <p class="text-sm" :class="isDark ? 'text-white/70' : 'text-stone-600'">
+              You already have a list named <strong>"{{ pendingImport?.name }}"</strong>. Do you want to update it or
+              save
+              as a new list?
+            </p>
+            <div class="flex gap-2">
+              <button @click="confirmImportUpdate"
+                :class="isDark ? 'bg-dark-border text-white hover:bg-navy/60' : 'bg-stone-100 text-stone-700 hover:bg-stone-200'"
+                class="flex-1 font-semibold py-2.5 rounded-xl cursor-pointer transition-colors text-sm">
+                Update
+              </button>
+              <button @click="confirmImportNew"
+                class="flex-1 bg-coral text-white font-semibold py-2.5 rounded-xl cursor-pointer hover:bg-coral/90 transition-colors text-sm">
+                Save as New
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </Teleport>

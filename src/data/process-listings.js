@@ -49,7 +49,7 @@ const TAG_RULES = [
   },
   {
     tag: "Vintage & Antiques",
-    re: /\b(vintage|antiques?|retro|collectibles?|collectables?|collectors?|memorabilia|mid-?century|mcm|ephemera|relics|artifacts?)\b/i,
+    re: /\b(vintage|antiques?|retro|mid-?century|mcm|ephemera|relics|artifacts?)\b/i,
   },
   {
     tag: "Electronics",
@@ -113,14 +113,14 @@ const TAG_RULES = [
   },
   {
     tag: "Collectibles",
-    re: /\b(trading\s+cards?|pokemon\s+cards?|sports\s+cards?|baseball\s+cards?|basketball\s+cards?|football\s+cards?|magic\s+the\s+gathering|mtg\b|funko|funko\s+pop|action\s+figures?|die.?cast|hot\s+wheels|matchbox\b|coins?\b|stamps?\b|comic\s+books?|comics?\b|signed\b|autographed?|limited\s+edition|first\s+edition|rookie\s+card|bobbleheads?\b|tcgs?\b|memorabilia\b)\b/i,
+    re: /\b(collectibles?|collectables?|collectors?|memorabilia|trading\s+cards?|pokemon\s+cards?|sports\s+cards?|baseball\s+cards?|basketball\s+cards?|football\s+cards?|magic\s+the\s+gathering|mtg\b|funko|funko\s+pop|action\s+figures?|die.?cast|hot\s+wheels|matchbox\b|coins?\b|stamps?\b|comic\s+books?|comics?\b|signed\b|autographed?|limited\s+edition|first\s+edition|rookie\s+card|bobbleheads?\b|tcgs?\b|memorabilia\b)\b/i,
   },
   {
     tag: "Automotive",
     re: /\b(automotive|auto\s+parts?|car\s+parts?|tires?\b|motor\s+oil|jumper\s+cables?|car\s+accessories|dashcam|car\s+stereo|trailers?\b|truck\s+bed|floor\s+mats?\b|car\s+rack|roof\s+rack|tow\s+hitch|oil\s+change|motorcycles?\b|vespa\b|generators?\b)\b/i,
   },
   {
-    tag: "Mixed Bag",
+    tag: "Miscellaneous",
     re: /\b(miscellaneous|misc\b|variety|eclectic|assorted|random|something\s+for\s+everyone|household\s+items?|house\s+stuff|all\s+kinds|downsizing|downsize|moving\s+sale|cleanout|clear\s?out|clearing\b|purge|everything\s+must\s+go|lots\s+to\s+discover|everything\b|mix\b|vendors?|goods\b|junk\b|cohousing|pop.?up|block\s+sale|personal\s+items?)\b/i,
   },
 ];
@@ -134,7 +134,7 @@ const processed = listings.map((listing) => {
   const desc = listing.description ?? "";
   const canceled = CANCELED_RE.test(desc);
   const tags = canceled ? [] : TAG_RULES.filter(({ re }) => re.test(desc)).map(({ tag }) => tag);
-  if (!canceled && desc && tags.length === 0) tags.push("Mixed Bag");
+  if (!canceled && desc && tags.length === 0) tags.push("Miscellaneous");
   if (!canceled && tags.length > 0) taggedCount++;
   return {
     id: listing.id,

@@ -26,7 +26,7 @@
     "description": "West Emerald Cohousing: Join us on the lawn in front of the Common House building",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -76,8 +76,8 @@
     "canceled": false,
     "tags": [
       "Toys & Games",
-      "Vintage & Antiques",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -92,7 +92,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -112,7 +112,7 @@
       "Kids & Baby",
       "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -130,7 +130,7 @@
       "Books",
       "Art & Crafts",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -146,9 +146,9 @@
     "tags": [
       "Kids & Baby",
       "Toys & Games",
-      "Vintage & Antiques",
       "Tools",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -201,7 +201,7 @@
     "canceled": false,
     "tags": [
       "Vintage & Antiques",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -277,7 +277,7 @@
       "Vintage & Antiques",
       "Sports & Outdoors",
       "Holiday & Seasonal",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -296,7 +296,8 @@
       "Books",
       "Vintage & Antiques",
       "Music & Records",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -344,7 +345,7 @@
       "Movies & Entertainment",
       "Appliances",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -379,7 +380,7 @@
       "Clothing",
       "Furniture",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -448,7 +449,7 @@
       "Electronics",
       "Tools",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -505,7 +506,7 @@
       "Books",
       "Pet Supplies",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -520,7 +521,8 @@
     "canceled": false,
     "tags": [
       "Vintage & Antiques",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -538,7 +540,7 @@
       "Music & Records",
       "Tools",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -597,7 +599,6 @@
       "Toys & Games",
       "Books",
       "Art & Crafts",
-      "Vintage & Antiques",
       "Collectibles"
     ]
   },
@@ -616,11 +617,11 @@
       "Shoes & Footwear",
       "Toys & Games",
       "Books",
-      "Vintage & Antiques",
       "Electronics",
       "Tools",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -663,7 +664,7 @@
       "Women's Clothing",
       "Kids & Baby",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -755,10 +756,10 @@
       "Books",
       "Plants & Garden",
       "Art & Crafts",
-      "Vintage & Antiques",
       "Kitchen & Dining",
       "Home Decor",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -827,7 +828,7 @@
       "Sports & Outdoors",
       "Cycling",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -877,7 +878,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -914,7 +915,7 @@
       "Shoes & Footwear",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -935,7 +936,7 @@
       "Furniture",
       "Art & Crafts",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -966,7 +967,7 @@
       "Tools",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -984,7 +985,8 @@
       "Toys & Games",
       "Vintage & Antiques",
       "Music & Records",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -999,7 +1001,7 @@
     "canceled": false,
     "tags": [
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1016,10 +1018,10 @@
       "Furniture",
       "Toys & Games",
       "Plants & Garden",
-      "Vintage & Antiques",
       "Electronics",
       "Kitchen & Dining",
-      "Movies & Entertainment"
+      "Movies & Entertainment",
+      "Collectibles"
     ]
   },
   {
@@ -1036,7 +1038,6 @@
       "Clothing",
       "Plants & Garden",
       "Art & Crafts",
-      "Vintage & Antiques",
       "Tools",
       "Sports & Outdoors",
       "Jewelry & Accessories",
@@ -1058,7 +1059,7 @@
       "Books",
       "Plants & Garden",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1080,7 +1081,7 @@
       "Pet Supplies",
       "Appliances",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1122,7 +1123,7 @@
       "Vintage & Antiques",
       "Home Decor",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1137,7 +1138,7 @@
     "canceled": false,
     "tags": [
       "Art & Crafts",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1157,7 +1158,7 @@
       "Kids & Baby",
       "Kitchen & Dining",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1195,7 +1196,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1235,7 +1236,7 @@
       "Electronics",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1270,7 +1271,7 @@
       "Women's Clothing",
       "Shoes & Footwear",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1287,7 +1288,7 @@
       "Clothing",
       "Art & Crafts",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1322,7 +1323,6 @@
       "Furniture",
       "Toys & Games",
       "Books",
-      "Vintage & Antiques",
       "Food & Treats",
       "Collectibles"
     ]
@@ -1380,7 +1380,7 @@
     "tags": [
       "Toys & Games",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1433,7 +1433,7 @@
       "Clothing",
       "Shoes & Footwear",
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1489,7 +1489,7 @@
       "Tools",
       "Sports & Outdoors",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1503,7 +1503,7 @@
     "description": "Visit the Southside Revolution Junior Roller Derby Garage Sale! Shop an eclectic selection of goods to support our nonprofit league!",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1574,7 +1574,8 @@
       "Kitchen & Dining",
       "Jewelry & Accessories",
       "Food & Treats",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -1610,7 +1611,7 @@
       "Women's Clothing",
       "Men's Clothing",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1647,7 +1648,7 @@
       "Art & Crafts",
       "Home Decor",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1668,7 +1669,7 @@
       "Kitchen & Dining",
       "Home Decor",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1689,7 +1690,7 @@
       "Kitchen & Dining",
       "Home Decor",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1706,11 +1707,10 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Vintage & Antiques",
       "Sports & Outdoors",
       "Movies & Entertainment",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1808,7 +1808,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1825,7 +1825,7 @@
       "Clothing",
       "Furniture",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1861,7 +1861,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1897,7 +1897,7 @@
       "Books",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1932,7 +1932,7 @@
       "Art & Crafts",
       "Tools",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1968,7 +1968,7 @@
       "Vintage & Antiques",
       "Kitchen & Dining",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -1983,7 +1983,7 @@
     "canceled": false,
     "tags": [
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2001,7 +2001,7 @@
       "Plants & Garden",
       "Food & Treats",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2018,7 +2018,7 @@
       "Clothing",
       "Women's Clothing",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2061,7 +2061,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2085,7 +2085,7 @@
       "Home Decor",
       "Movies & Entertainment",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2106,7 +2106,7 @@
       "Toys & Games",
       "Books",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2178,7 +2178,7 @@
       "Music & Records",
       "Tools",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2196,7 +2196,7 @@
       "Art & Crafts",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2210,7 +2210,7 @@
     "description": "Family goods",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2224,7 +2224,7 @@
     "description": "Moving sale",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2271,7 +2271,7 @@
       "Home Decor",
       "Food & Treats",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2304,7 +2304,7 @@
     "description": "Please stop by! If not raining, it will be on the sidewalk, or in the garage if raining. We are trying to downsize so selling lots of house stuff",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2361,7 +2361,7 @@
       "Plants & Garden",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2376,7 +2376,7 @@
     "canceled": false,
     "tags": [
       "Shoes & Footwear",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2452,7 +2452,7 @@
       "Toys & Games",
       "Sports & Outdoors",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2470,7 +2470,7 @@
       "Tools",
       "Sports & Outdoors",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2509,7 +2509,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2544,7 +2544,7 @@
       "Clothing",
       "Tools",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2589,7 +2589,7 @@
       "Tools",
       "Sports & Outdoors",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2611,7 +2611,8 @@
       "Tools",
       "Jewelry & Accessories",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -2718,7 +2719,7 @@
       "Tools",
       "Kitchen & Dining",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2753,7 +2754,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2779,7 +2780,7 @@
       "Appliances",
       "Holiday & Seasonal",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2814,7 +2815,7 @@
       "Clothing",
       "Women's Clothing",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2853,7 +2854,8 @@
       "Furniture",
       "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -2867,7 +2869,7 @@
     "description": "At Hotwire Coffeehouse: The Hotwire parking lot will have around 20 vendors. Everything is represented!!!!",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2921,7 +2923,7 @@
       "Shoes & Footwear",
       "Furniture",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -2936,13 +2938,13 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Vintage & Antiques",
       "Music & Records",
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -3032,7 +3034,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3083,7 +3085,7 @@
       "Tools",
       "Sports & Outdoors",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3119,7 +3121,7 @@
       "Clothing",
       "Shoes & Footwear",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3139,7 +3141,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3156,7 +3158,7 @@
       "Sports & Outdoors",
       "Cycling",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3223,7 +3225,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3273,7 +3275,7 @@
     "description": "Spring Cleanout! A Variety of Household Items Up for Sale! Open at 9 am!",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3340,7 +3342,7 @@
       "Sports & Outdoors",
       "Pet Supplies",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3376,7 +3378,8 @@
       "Clothing",
       "Vintage & Antiques",
       "Holiday & Seasonal",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -3390,7 +3393,7 @@
     "description": "BIG! This sale is in front of West Seattle Mercantile.  It is a mix of sale items from the 4 stores, but also a block sale for those on the block and some personal items are included.",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3437,7 +3440,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3510,7 +3513,7 @@
     "description": "One person's \"junk\" is another's *treasure*! We're a family of makers with too many projects, looking to clear some space. (We'll be sticking to the sidewalk strip)",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3554,7 +3557,7 @@
       "Jewelry & Accessories",
       "Food & Treats",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3587,7 +3590,7 @@
       "Furniture",
       "Art & Crafts",
       "Music & Records",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3677,7 +3680,7 @@
     "description": "Everything $1.00  Really, everything?  Yes, Everything... $1.00 and it is all good stuff...",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3698,7 +3701,7 @@
       "Kids & Baby",
       "Kitchen & Dining",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3736,7 +3739,8 @@
       "Toys & Games",
       "Vintage & Antiques",
       "Jewelry & Accessories",
-      "Movies & Entertainment"
+      "Movies & Entertainment",
+      "Collectibles"
     ]
   },
   {
@@ -3779,7 +3783,7 @@
       "Free / PWYW",
       "Cycling",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3841,7 +3845,7 @@
       "Art & Crafts",
       "Music & Records",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3891,7 +3895,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -3951,7 +3955,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4017,7 +4021,7 @@
     "tags": [
       "Furniture",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4075,7 +4079,7 @@
     "tags": [
       "Clothing",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4091,7 +4095,7 @@
     "tags": [
       "Furniture",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4108,7 +4112,7 @@
       "Clothing",
       "Toys & Games",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4150,7 +4154,7 @@
       "Home Decor",
       "Food & Treats",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4167,7 +4171,7 @@
       "Art & Crafts",
       "Tools",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4208,7 +4212,7 @@
       "Art & Crafts",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4246,7 +4250,7 @@
       "Home Decor",
       "Jewelry & Accessories",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4290,7 +4294,7 @@
       "Home Decor",
       "Jewelry & Accessories",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4386,7 +4390,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4408,7 +4412,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4450,7 +4454,7 @@
       "Vintage & Antiques",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4491,7 +4495,7 @@
       "Movies & Entertainment",
       "Appliances",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4529,7 +4533,7 @@
       "Plants & Garden",
       "Home Decor",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4568,7 +4572,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4606,7 +4610,7 @@
       "Clothing",
       "Furniture",
       "Books",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4645,7 +4649,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4685,7 +4689,7 @@
       "Kitchen & Dining",
       "Home Decor",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4709,7 +4713,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4730,7 +4734,7 @@
       "Art & Crafts",
       "Music & Records",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4771,7 +4775,7 @@
       "Toys & Games",
       "Books",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4786,7 +4790,7 @@
     "canceled": false,
     "tags": [
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4801,7 +4805,7 @@
     "canceled": false,
     "tags": [
       "Clothing",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4839,7 +4843,7 @@
     "description": "At Tibbetts United Methodist Church: Items from many families, lots to discover!",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4856,7 +4860,7 @@
       "Clothing",
       "Home Decor",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4879,7 +4883,7 @@
       "Tools",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4895,7 +4899,7 @@
     "tags": [
       "Furniture",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4933,7 +4937,7 @@
       "Sports & Outdoors",
       "Free / PWYW",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -4951,7 +4955,7 @@
       "Plants & Garden",
       "Art & Crafts",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5001,7 +5005,7 @@
       "Vintage & Antiques",
       "Electronics",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5038,7 +5042,7 @@
       "Tools",
       "Home Decor",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5074,7 +5078,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5092,7 +5096,8 @@
       "Vintage & Antiques",
       "Tools",
       "Jewelry & Accessories",
-      "Holiday & Seasonal"
+      "Holiday & Seasonal",
+      "Collectibles"
     ]
   },
   {
@@ -5131,7 +5136,7 @@
       "Tools",
       "Kitchen & Dining",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5171,7 +5176,7 @@
       "Books",
       "Electronics",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5191,7 +5196,7 @@
       "Art & Crafts",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5251,7 +5256,7 @@
       "Kids & Baby",
       "Art & Crafts",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5395,7 +5400,7 @@
       "Clothing",
       "Furniture",
       "Electronics",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5433,9 +5438,9 @@
       "Shoes & Footwear",
       "Furniture",
       "Toys & Games",
-      "Vintage & Antiques",
       "Music & Records",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -5555,7 +5560,7 @@
       "Toys & Games",
       "Art & Crafts",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5576,7 +5581,7 @@
       "Tools",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5597,7 +5602,8 @@
       "Electronics",
       "Music & Records",
       "Tools",
-      "Home Decor"
+      "Home Decor",
+      "Collectibles"
     ]
   },
   {
@@ -5677,7 +5683,7 @@
       "Furniture",
       "Plants & Garden",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5699,7 +5705,7 @@
       "Sports & Outdoors",
       "Jewelry & Accessories",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5757,7 +5763,7 @@
       "Shoes & Footwear",
       "Books",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5776,7 +5782,7 @@
       "Kids & Baby",
       "Tools",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5795,7 +5801,7 @@
       "Shoes & Footwear",
       "Furniture",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5865,7 +5871,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5882,8 +5888,8 @@
       "Clothing",
       "Furniture",
       "Art & Crafts",
-      "Vintage & Antiques",
-      "Kitchen & Dining"
+      "Kitchen & Dining",
+      "Collectibles"
     ]
   },
   {
@@ -5952,7 +5958,7 @@
       "Toys & Games",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5971,7 +5977,7 @@
       "Sports & Outdoors",
       "Food & Treats",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -5995,7 +6001,7 @@
       "Kitchen & Dining",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6011,9 +6017,9 @@
     "tags": [
       "Furniture",
       "Art & Crafts",
-      "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -6078,7 +6084,7 @@
     "tags": [
       "Plants & Garden",
       "Art & Crafts",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6096,7 +6102,8 @@
       "Music & Records",
       "Sports & Outdoors",
       "Pet Supplies",
-      "Cycling"
+      "Cycling",
+      "Collectibles"
     ]
   },
   {
@@ -6182,7 +6189,7 @@
       "Art & Crafts",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6197,7 +6204,7 @@
     "canceled": false,
     "tags": [
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6234,7 +6241,7 @@
       "Plants & Garden",
       "Tools",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6308,7 +6315,7 @@
       "Toys & Games",
       "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6399,7 +6406,7 @@
       "Toys & Games",
       "Books",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6414,7 +6421,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6431,7 +6438,7 @@
       "Clothing",
       "Vintage & Antiques",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6479,7 +6486,7 @@
       "Clothing",
       "Shoes & Footwear",
       "Kids & Baby",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6498,7 +6505,7 @@
       "Plants & Garden",
       "Kitchen & Dining",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6513,10 +6520,10 @@
     "canceled": false,
     "tags": [
       "Books",
-      "Vintage & Antiques",
       "Tools",
       "Free / PWYW",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -6548,7 +6555,7 @@
     "tags": [
       "Clothing",
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6570,7 +6577,7 @@
       "Tools",
       "Kitchen & Dining",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6590,7 +6597,7 @@
       "Furniture",
       "Tools",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6644,7 +6651,7 @@
       "Electronics",
       "Tools",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6663,7 +6670,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6701,7 +6708,7 @@
       "Music & Records",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6719,11 +6726,10 @@
       "Furniture",
       "Toys & Games",
       "Books",
-      "Vintage & Antiques",
       "Sports & Outdoors",
       "Home Decor",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6780,7 +6786,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6799,7 +6805,7 @@
       "Toys & Games",
       "Food & Treats",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6815,7 +6821,7 @@
     "tags": [
       "Clothing",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6858,7 +6864,7 @@
       "Food & Treats",
       "Free / PWYW",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6878,7 +6884,7 @@
       "Electronics",
       "Sports & Outdoors",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6898,7 +6904,7 @@
       "Tools",
       "Kitchen & Dining",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6914,7 +6920,7 @@
     "tags": [
       "Vintage & Antiques",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -6934,7 +6940,7 @@
       "Electronics",
       "Movies & Entertainment",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7020,7 +7026,7 @@
       "Tools",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7051,7 +7057,7 @@
     "tags": [
       "Kids & Baby",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7087,7 +7093,7 @@
     "description": "SHHHHH....... Hubby does not know that I am selling half of what is in our house!!!! And it's the GOOD stuff!",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7122,7 +7128,7 @@
       "Tools",
       "Home Decor",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7158,7 +7164,6 @@
       "Furniture",
       "Kids & Baby",
       "Toys & Games",
-      "Vintage & Antiques",
       "Electronics",
       "Music & Records",
       "Sports & Outdoors",
@@ -7166,7 +7171,7 @@
       "Pet Supplies",
       "Movies & Entertainment",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7183,7 +7188,7 @@
       "Furniture",
       "Kids & Baby",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7204,7 +7209,7 @@
       "Sports & Outdoors",
       "Appliances",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7219,7 +7224,7 @@
     "canceled": false,
     "tags": [
       "Plants & Garden",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7238,7 +7243,6 @@
       "Shoes & Footwear",
       "Books",
       "Art & Crafts",
-      "Vintage & Antiques",
       "Jewelry & Accessories",
       "Collectibles"
     ]
@@ -7337,7 +7341,7 @@
       "Tools",
       "Kitchen & Dining",
       "Holiday & Seasonal",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7372,9 +7376,9 @@
       "Kids & Baby",
       "Toys & Games",
       "Art & Crafts",
-      "Vintage & Antiques",
       "Electronics",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -7419,7 +7423,7 @@
       "Jewelry & Accessories",
       "Pet Supplies",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7491,7 +7495,7 @@
       "Women's Clothing",
       "Kids & Baby",
       "Toys & Games",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7511,7 +7515,7 @@
       "Sports & Outdoors",
       "Pet Supplies",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7533,7 +7537,7 @@
       "Sports & Outdoors",
       "Cycling",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7563,8 +7567,8 @@
     "description": "Kenyon Hall's Swap & Spin. Hosting vinyl sellers/collectors from the West Side and Greater Seattle - with Live DJs spinning all morning & afternoon. Also: Canned food drive for West Seattle Food Bank, so if you can spare an extra can or two, please bring them by!",
     "canceled": false,
     "tags": [
-      "Vintage & Antiques",
-      "Music & Records"
+      "Music & Records",
+      "Collectibles"
     ]
   },
   {
@@ -7602,7 +7606,8 @@
       "Toys & Games",
       "Vintage & Antiques",
       "Food & Treats",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -7636,7 +7641,7 @@
     "tags": [
       "Books",
       "Vintage & Antiques",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7656,7 +7661,7 @@
       "Art & Crafts",
       "Home Decor",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7671,7 +7676,7 @@
     "canceled": false,
     "tags": [
       "Kids & Baby",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7713,7 +7718,7 @@
       "Vintage & Antiques",
       "Tools",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7766,7 +7771,7 @@
       "Appliances",
       "Cycling",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7801,7 +7806,7 @@
       "Vintage & Antiques",
       "Tools",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7833,7 +7838,7 @@
       "Plants & Garden",
       "Art & Crafts",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7852,7 +7857,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7870,7 +7875,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7889,7 +7894,7 @@
       "Men's Clothing",
       "Kitchen & Dining",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -7912,7 +7917,8 @@
       "Tools",
       "Kitchen & Dining",
       "Home Decor",
-      "Jewelry & Accessories"
+      "Jewelry & Accessories",
+      "Collectibles"
     ]
   },
   {
@@ -7934,7 +7940,7 @@
       "Kitchen & Dining",
       "Jewelry & Accessories",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8041,7 +8047,7 @@
       "Women's Clothing",
       "Home Decor",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8120,7 +8126,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8139,9 +8145,9 @@
       "Furniture",
       "Toys & Games",
       "Plants & Garden",
-      "Vintage & Antiques",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -8231,7 +8237,7 @@
     "canceled": false,
     "tags": [
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8290,7 +8296,7 @@
       "Toys & Games",
       "Music & Records",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8329,7 +8335,7 @@
       "Clothing",
       "Kitchen & Dining",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8349,7 +8355,7 @@
       "Books",
       "Kitchen & Dining",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8426,7 +8432,8 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Appliances",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -8471,7 +8478,7 @@
       "Clothing",
       "Kids & Baby",
       "Toys & Games",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8489,7 +8496,7 @@
       "Toys & Games",
       "Tools",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8512,7 +8519,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8551,7 +8558,7 @@
       "Clothing",
       "Kids & Baby",
       "Books",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8637,7 +8644,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8652,7 +8659,7 @@
     "canceled": false,
     "tags": [
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8670,7 +8677,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Plants & Garden",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8689,7 +8696,7 @@
       "Electronics",
       "Home Decor",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8709,7 +8716,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8744,7 +8751,7 @@
       "Electronics",
       "Tools",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8758,7 +8765,7 @@
     "description": "SOMETHING FOR EVERYONE!  At great prices, too!",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8775,7 +8782,7 @@
       "Clothing",
       "Kids & Baby",
       "Toys & Games",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8827,7 +8834,7 @@
       "Kitchen & Dining",
       "Jewelry & Accessories",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8883,7 +8890,7 @@
       "Home Decor",
       "Appliances",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8901,7 +8908,7 @@
       "Art & Crafts",
       "Tools",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8916,7 +8923,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8939,7 +8946,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -8973,7 +8980,7 @@
       "Toys & Games",
       "Books",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9039,7 +9046,7 @@
     "tags": [
       "Home Decor",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9079,7 +9086,7 @@
       "Vintage & Antiques",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9101,7 +9108,7 @@
       "Vintage & Antiques",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9139,7 +9146,7 @@
       "Home Decor",
       "Appliances",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9156,7 +9163,8 @@
       "Books",
       "Plants & Garden",
       "Vintage & Antiques",
-      "Kitchen & Dining"
+      "Kitchen & Dining",
+      "Collectibles"
     ]
   },
   {
@@ -9197,7 +9205,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9275,7 +9283,7 @@
       "Music & Records",
       "Free / PWYW",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9313,7 +9321,7 @@
       "Vintage & Antiques",
       "Music & Records",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9338,7 +9346,7 @@
       "Home Decor",
       "Food & Treats",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9354,7 +9362,7 @@
     "tags": [
       "Clothing",
       "Women's Clothing",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9404,7 +9412,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9474,7 +9482,7 @@
       "Furniture",
       "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9491,7 +9499,7 @@
       "Clothing",
       "Shoes & Footwear",
       "Kids & Baby",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9513,7 +9521,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9532,7 +9540,7 @@
       "Books",
       "Plants & Garden",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9550,7 +9558,7 @@
       "Plants & Garden",
       "Electronics",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9569,7 +9577,7 @@
       "Electronics",
       "Tools",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9613,7 +9621,7 @@
       "Art & Crafts",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9681,7 +9689,7 @@
       "Tools",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9782,7 +9790,7 @@
       "Toys & Games",
       "Books",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9810,7 +9818,7 @@
     "description": "Major downsizing effort! Supporting suicide prevention",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9846,10 +9854,10 @@
     "tags": [
       "Plants & Garden",
       "Art & Crafts",
-      "Vintage & Antiques",
       "Tools",
       "Sports & Outdoors",
       "Free / PWYW",
+      "Collectibles",
       "Automotive"
     ]
   },
@@ -9902,9 +9910,8 @@
       "Men's Clothing",
       "Furniture",
       "Kids & Baby",
-      "Vintage & Antiques",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9940,7 +9947,7 @@
     "tags": [
       "Clothing",
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9958,7 +9965,7 @@
       "Furniture",
       "Art & Crafts",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9976,7 +9983,7 @@
       "Women's Clothing",
       "Kids & Baby",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -9994,7 +10001,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10017,7 +10024,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10054,7 +10061,7 @@
       "Toys & Games",
       "Tools",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10102,7 +10109,7 @@
       "Sports & Outdoors",
       "Jewelry & Accessories",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10121,7 +10128,7 @@
       "Kitchen & Dining",
       "Appliances",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10138,7 +10145,7 @@
       "Clothing",
       "Vintage & Antiques",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10155,7 +10162,7 @@
       "Clothing",
       "Women's Clothing",
       "Toys & Games",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10190,7 +10197,7 @@
       "Plants & Garden",
       "Art & Crafts",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10208,7 +10215,7 @@
       "Kids & Baby",
       "Sports & Outdoors",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10228,7 +10235,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10278,7 +10285,7 @@
     "tags": [
       "Art & Crafts",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10310,7 +10317,7 @@
     "description": "Beach Drive sale",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10326,7 +10333,7 @@
     "tags": [
       "Clothing",
       "Women's Clothing",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10346,7 +10353,7 @@
       "Kids & Baby",
       "Home Decor",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10362,7 +10369,7 @@
     "tags": [
       "Clothing",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10382,7 +10389,7 @@
       "Art & Crafts",
       "Tools",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10403,7 +10410,8 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -10487,7 +10495,7 @@
     "description": "At Rainier Hair Studio: Garage sale pop-up! Walk-in barbershop / family hair studio. Hair for everyone, discounted services and products, gift-shop launch, gift certificate raffle",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10557,7 +10565,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10599,7 +10607,7 @@
       "Jewelry & Accessories",
       "Cycling",
       "Office & School",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10633,7 +10641,7 @@
       "Toys & Games",
       "Art & Crafts",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10791,7 +10799,7 @@
       "Tools",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10810,7 +10818,7 @@
       "Kids & Baby",
       "Plants & Garden",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10851,7 +10859,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10875,7 +10883,7 @@
       "Home Decor",
       "Pet Supplies",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10932,7 +10940,7 @@
       "Sports & Outdoors",
       "Food & Treats",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10970,7 +10978,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -10988,7 +10996,7 @@
       "Tools",
       "Sports & Outdoors",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11010,7 +11018,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11032,7 +11040,7 @@
       "Food & Treats",
       "Pet Supplies",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11066,7 +11074,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11126,7 +11134,7 @@
       "Toys & Games",
       "Books",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11149,7 +11157,7 @@
       "Sports & Outdoors",
       "Home Decor",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11165,6 +11173,7 @@
     "tags": [
       "Vintage & Antiques",
       "Tools",
+      "Collectibles",
       "Automotive"
     ]
   },
@@ -11179,7 +11188,7 @@
     "description": "Clearing two households. Major Sale",
     "canceled": false,
     "tags": [
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11196,7 +11205,7 @@
       "Clothing",
       "Furniture",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11302,7 +11311,8 @@
       "Shoes & Footwear",
       "Furniture",
       "Vintage & Antiques",
-      "Music & Records"
+      "Music & Records",
+      "Collectibles"
     ]
   },
   {
@@ -11347,7 +11357,7 @@
       "Plants & Garden",
       "Kitchen & Dining",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11366,7 +11376,7 @@
       "Vintage & Antiques",
       "Tools",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11406,7 +11416,8 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Decor",
+      "Collectibles"
     ]
   },
   {
@@ -11425,7 +11436,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Jewelry & Accessories",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11465,7 +11476,7 @@
       "Tools",
       "Kitchen & Dining",
       "Movies & Entertainment",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11485,7 +11496,7 @@
       "Furniture",
       "Home Decor",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11502,7 +11513,7 @@
       "Furniture",
       "Tools",
       "Free / PWYW",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11574,7 +11585,7 @@
       "Sports & Outdoors",
       "Movies & Entertainment",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11613,7 +11624,7 @@
       "Sports & Outdoors",
       "Appliances",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11631,7 +11642,7 @@
       "Furniture",
       "Kids & Baby",
       "Sports & Outdoors",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11670,7 +11681,7 @@
       "Music & Records",
       "Movies & Entertainment",
       "Automotive",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11707,7 +11718,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11747,7 +11758,7 @@
       "Kitchen & Dining",
       "Home Decor",
       "Appliances",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11765,7 +11776,7 @@
       "Art & Crafts",
       "Home Decor",
       "Food & Treats",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11782,7 +11793,7 @@
       "Clothing",
       "Kids & Baby",
       "Tools",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11818,7 +11829,8 @@
       "Music & Records",
       "Tools",
       "Home Decor",
-      "Mixed Bag"
+      "Collectibles",
+      "Miscellaneous"
     ]
   },
   {
@@ -11890,7 +11902,7 @@
       "Men's Clothing",
       "Shoes & Footwear",
       "Kids & Baby",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -11912,7 +11924,7 @@
       "Art & Crafts",
       "Tools",
       "Pet Supplies",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -12013,7 +12025,7 @@
     "tags": [
       "Furniture",
       "Toys & Games",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -12075,7 +12087,7 @@
       "Sports & Outdoors",
       "Cycling",
       "Collectibles",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -12124,7 +12136,7 @@
       "Art & Crafts",
       "Kitchen & Dining",
       "Home Decor",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -12144,7 +12156,7 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
@@ -12240,7 +12252,7 @@
       "Sports & Outdoors",
       "Movies & Entertainment",
       "Cycling",
-      "Mixed Bag"
+      "Miscellaneous"
     ]
   },
   {
