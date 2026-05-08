@@ -75,8 +75,8 @@
     "canceled": false,
     "tags": [
       "Toys & Games",
-      "Collectibles",
-      "Miscellaneous"
+      "Home Goods",
+      "Collectibles"
     ]
   },
   {
@@ -110,7 +110,7 @@
       "Men's Clothing",
       "Kids & Baby",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -129,7 +129,7 @@
       "Books",
       "Art & Crafts",
       "Tools",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -146,6 +146,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Tools",
+      "Home Goods",
       "Collectibles",
       "Miscellaneous"
     ]
@@ -166,7 +167,7 @@
       "Art & Crafts",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Office & School"
     ]
   },
@@ -258,7 +259,7 @@
       "Books",
       "Art & Crafts",
       "Electronics",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -319,7 +320,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Free / PWYW"
     ]
@@ -378,7 +379,7 @@
     "tags": [
       "Clothing",
       "Furniture",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -447,6 +448,7 @@
       "Kids & Baby",
       "Electronics",
       "Tools",
+      "Home Goods",
       "Movies & Entertainment",
       "Miscellaneous"
     ]
@@ -468,7 +470,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -520,8 +522,8 @@
     "canceled": false,
     "tags": [
       "Vintage & Antiques",
-      "Collectibles",
-      "Miscellaneous"
+      "Home Goods",
+      "Collectibles"
     ]
   },
   {
@@ -537,8 +539,8 @@
     "tags": [
       "Electronics",
       "Music & Records",
-      "Movies & Entertainment",
-      "Miscellaneous"
+      "Home Goods",
+      "Movies & Entertainment"
     ]
   },
   {
@@ -554,8 +556,8 @@
     "tags": [
       "Electronics",
       "Tools",
-      "Kitchen & Dining",
-      "Sports & Outdoors"
+      "Sports & Outdoors",
+      "Home Goods"
     ]
   },
   {
@@ -576,7 +578,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Movies & Entertainment",
       "Holiday & Seasonal"
@@ -618,6 +620,7 @@
       "Electronics",
       "Tools",
       "Kitchen & Dining",
+      "Home Goods",
       "Collectibles",
       "Miscellaneous"
     ]
@@ -643,7 +646,7 @@
       "Music & Records",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Collectibles"
     ]
   },
@@ -662,7 +665,7 @@
       "Women's Clothing",
       "Kids & Baby",
       "Kitchen & Dining",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -680,7 +683,7 @@
       "Kids & Baby",
       "Books",
       "Art & Crafts",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -754,7 +757,7 @@
       "Plants & Garden",
       "Art & Crafts",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Collectibles",
       "Miscellaneous"
     ]
@@ -823,9 +826,9 @@
       "Clothing",
       "Furniture",
       "Sports & Outdoors",
+      "Home Goods",
       "Cycling",
-      "Office & School",
-      "Miscellaneous"
+      "Office & School"
     ]
   },
   {
@@ -874,7 +877,7 @@
       "Clothing",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -891,7 +894,7 @@
     "tags": [
       "Clothing",
       "Books",
-      "Kitchen & Dining",
+      "Home Goods",
       "Jewelry & Accessories"
     ]
   },
@@ -910,7 +913,7 @@
       "Women's Clothing",
       "Men's Clothing",
       "Shoes & Footwear",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -982,8 +985,8 @@
       "Toys & Games",
       "Vintage & Antiques",
       "Music & Records",
-      "Collectibles",
-      "Miscellaneous"
+      "Home Goods",
+      "Collectibles"
     ]
   },
   {
@@ -1016,7 +1019,7 @@
       "Toys & Games",
       "Plants & Garden",
       "Electronics",
-      "Kitchen & Dining",
+      "Home Goods",
       "Movies & Entertainment",
       "Collectibles"
     ]
@@ -1055,6 +1058,7 @@
       "Kids & Baby",
       "Books",
       "Plants & Garden",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -1118,7 +1122,7 @@
       "Furniture",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Miscellaneous"
     ]
@@ -1153,7 +1157,7 @@
       "Women's Clothing",
       "Men's Clothing",
       "Kids & Baby",
-      "Kitchen & Dining",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -1192,7 +1196,7 @@
       "Vintage & Antiques",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -1268,7 +1272,7 @@
       "Women's Clothing",
       "Shoes & Footwear",
       "Tools",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -1284,6 +1288,7 @@
     "tags": [
       "Clothing",
       "Art & Crafts",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -1342,7 +1347,7 @@
       "Electronics",
       "Tools",
       "Sports & Outdoors",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -1376,7 +1381,7 @@
     "tags": [
       "Toys & Games",
       "Sports & Outdoors",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -1396,6 +1401,7 @@
       "Music & Records",
       "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Movies & Entertainment"
     ]
   },
@@ -1412,7 +1418,7 @@
     "tags": [
       "Toys & Games",
       "Plants & Garden",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -1446,7 +1452,7 @@
       "Clothing",
       "Furniture",
       "Toys & Games",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -1484,6 +1490,7 @@
       "Furniture",
       "Tools",
       "Sports & Outdoors",
+      "Home Goods",
       "Automotive",
       "Miscellaneous"
     ]
@@ -1568,10 +1575,10 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
+      "Home Goods",
       "Jewelry & Accessories",
       "Food & Treats",
-      "Collectibles",
-      "Miscellaneous"
+      "Collectibles"
     ]
   },
   {
@@ -1642,7 +1649,7 @@
       "Clothing",
       "Plants & Garden",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Office & School",
       "Miscellaneous"
     ]
@@ -1663,7 +1670,7 @@
       "Kids & Baby",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -1684,7 +1691,7 @@
       "Art & Crafts",
       "Electronics",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -1704,6 +1711,7 @@
       "Toys & Games",
       "Books",
       "Sports & Outdoors",
+      "Home Goods",
       "Movies & Entertainment",
       "Collectibles",
       "Miscellaneous"
@@ -1722,7 +1730,7 @@
     "tags": [
       "Plants & Garden",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Holiday & Seasonal",
       "Collectibles"
     ]
@@ -1746,7 +1754,7 @@
       "Art & Crafts",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -1803,7 +1811,7 @@
       "Books",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -1821,6 +1829,7 @@
       "Clothing",
       "Furniture",
       "Kitchen & Dining",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -1855,9 +1864,8 @@
       "Art & Crafts",
       "Tools",
       "Sports & Outdoors",
-      "Home Decor",
-      "Appliances",
-      "Miscellaneous"
+      "Home Goods",
+      "Appliances"
     ]
   },
   {
@@ -1893,6 +1901,7 @@
       "Books",
       "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -1927,8 +1936,8 @@
     "tags": [
       "Art & Crafts",
       "Tools",
-      "Jewelry & Accessories",
-      "Miscellaneous"
+      "Home Goods",
+      "Jewelry & Accessories"
     ]
   },
   {
@@ -1963,8 +1972,8 @@
       "Plants & Garden",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Pet Supplies",
-      "Miscellaneous"
+      "Home Goods",
+      "Pet Supplies"
     ]
   },
   {
@@ -1979,6 +1988,7 @@
     "canceled": false,
     "tags": [
       "Tools",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -2013,7 +2023,7 @@
     "tags": [
       "Clothing",
       "Women's Clothing",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -2055,7 +2065,7 @@
       "Vintage & Antiques",
       "Electronics",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -2078,7 +2088,7 @@
       "Music & Records",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Movies & Entertainment",
       "Cycling",
       "Miscellaneous"
@@ -2101,6 +2111,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
+      "Home Goods",
       "Free / PWYW",
       "Miscellaneous"
     ]
@@ -2120,8 +2131,7 @@
       "Books",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -2153,7 +2163,7 @@
       "Women's Clothing",
       "Electronics",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies"
     ]
   },
@@ -2173,7 +2183,7 @@
       "Vintage & Antiques",
       "Music & Records",
       "Tools",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -2190,7 +2200,7 @@
     "tags": [
       "Clothing",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -2240,7 +2250,7 @@
       "Vintage & Antiques",
       "Music & Records",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Collectibles"
     ]
@@ -2264,7 +2274,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Free / PWYW",
       "Miscellaneous"
@@ -2285,6 +2295,7 @@
       "Books",
       "Music & Records",
       "Kitchen & Dining",
+      "Home Goods",
       "Pet Supplies",
       "Office & School"
     ]
@@ -2357,6 +2368,7 @@
       "Plants & Garden",
       "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -2407,7 +2419,7 @@
       "Electronics",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -2425,7 +2437,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Appliances",
       "Holiday & Seasonal",
       "Cycling"
@@ -2539,7 +2551,7 @@
       "Clothing",
       "Tools",
       "Kitchen & Dining",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -2561,7 +2573,7 @@
       "Electronics",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -2582,6 +2594,7 @@
       "Electronics",
       "Music & Records",
       "Sports & Outdoors",
+      "Home Goods",
       "Movies & Entertainment",
       "Miscellaneous"
     ]
@@ -2602,6 +2615,7 @@
       "Toys & Games",
       "Vintage & Antiques",
       "Music & Records",
+      "Home Goods",
       "Jewelry & Accessories",
       "Movies & Entertainment",
       "Collectibles",
@@ -2656,7 +2670,7 @@
       "Furniture",
       "Toys & Games",
       "Books",
-      "Home Decor",
+      "Home Goods",
       "Appliances"
     ]
   },
@@ -2676,7 +2690,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Art & Crafts",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -2690,7 +2704,7 @@
     "description": "Tchotchkes, knickknacks, trinkets, geegaws, housewares, and who knows what else",
     "canceled": false,
     "tags": [
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -2711,7 +2725,7 @@
       "Vintage & Antiques",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -2732,7 +2746,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Tools",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -2747,6 +2761,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -2769,7 +2784,7 @@
       "Art & Crafts",
       "Music & Records",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Appliances",
       "Holiday & Seasonal",
       "Office & School",
@@ -2830,7 +2845,7 @@
       "Toys & Games",
       "Books",
       "Vintage & Antiques",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -2846,7 +2861,7 @@
     "tags": [
       "Furniture",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Collectibles",
       "Miscellaneous"
     ]
@@ -2916,7 +2931,7 @@
       "Shoes & Footwear",
       "Furniture",
       "Tools",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -2974,8 +2989,8 @@
       "Toys & Games",
       "Electronics",
       "Music & Records",
-      "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Movies & Entertainment",
       "Collectibles"
     ]
@@ -3027,7 +3042,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -3076,6 +3091,7 @@
     "tags": [
       "Clothing",
       "Sports & Outdoors",
+      "Home Goods",
       "Pet Supplies",
       "Miscellaneous"
     ]
@@ -3148,9 +3164,9 @@
     "canceled": false,
     "tags": [
       "Sports & Outdoors",
+      "Home Goods",
       "Cycling",
-      "Automotive",
-      "Miscellaneous"
+      "Automotive"
     ]
   },
   {
@@ -3166,8 +3182,8 @@
     "tags": [
       "Clothing",
       "Art & Crafts",
-      "Kitchen & Dining",
-      "Sports & Outdoors"
+      "Sports & Outdoors",
+      "Home Goods"
     ]
   },
   {
@@ -3266,6 +3282,7 @@
     "description": "Spring Cleanout! A Variety of Household Items Up for Sale! Open at 9 am!",
     "canceled": false,
     "tags": [
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -3297,7 +3314,7 @@
     "tags": [
       "Clothing",
       "Women's Clothing",
-      "Kitchen & Dining",
+      "Home Goods",
       "Pet Supplies",
       "Appliances"
     ]
@@ -3352,7 +3369,7 @@
       "Shoes & Footwear",
       "Kids & Baby",
       "Toys & Games",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -3465,7 +3482,7 @@
       "Furniture",
       "Art & Crafts",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Office & School"
     ]
@@ -3487,7 +3504,7 @@
       "Electronics",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Automotive"
     ]
@@ -3543,7 +3560,7 @@
       "Plants & Garden",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Food & Treats",
       "Pet Supplies",
@@ -3653,7 +3670,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories"
     ]
   },
@@ -3765,11 +3782,11 @@
       "Vintage & Antiques",
       "Music & Records",
       "Sports & Outdoors",
+      "Home Goods",
       "Jewelry & Accessories",
       "Free / PWYW",
       "Cycling",
-      "Collectibles",
-      "Miscellaneous"
+      "Collectibles"
     ]
   },
   {
@@ -3830,7 +3847,7 @@
       "Toys & Games",
       "Art & Crafts",
       "Music & Records",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -3880,8 +3897,8 @@
     "tags": [
       "Art & Crafts",
       "Vintage & Antiques",
-      "Jewelry & Accessories",
-      "Miscellaneous"
+      "Home Goods",
+      "Jewelry & Accessories"
     ]
   },
   {
@@ -3940,7 +3957,7 @@
       "Furniture",
       "Kids & Baby",
       "Toys & Games",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -3991,7 +4008,8 @@
       "Toys & Games",
       "Books",
       "Vintage & Antiques",
-      "Tools"
+      "Tools",
+      "Home Goods"
     ]
   },
   {
@@ -4006,7 +4024,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -4065,6 +4083,7 @@
     "tags": [
       "Clothing",
       "Tools",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -4080,8 +4099,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Home Decor",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -4137,7 +4155,7 @@
       "Clothing",
       "Kids & Baby",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Free / PWYW",
       "Miscellaneous"
@@ -4157,6 +4175,7 @@
       "Art & Crafts",
       "Tools",
       "Sports & Outdoors",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -4178,7 +4197,7 @@
       "Art & Crafts",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Cycling"
     ]
@@ -4233,7 +4252,7 @@
       "Electronics",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Office & School",
       "Miscellaneous"
@@ -4255,7 +4274,7 @@
       "Men's Clothing",
       "Furniture",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Free / PWYW"
     ]
   },
@@ -4277,7 +4296,7 @@
       "Toys & Games",
       "Books",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Pet Supplies",
       "Miscellaneous"
@@ -4317,7 +4336,8 @@
       "Women's Clothing",
       "Furniture",
       "Plants & Garden",
-      "Kitchen & Dining"
+      "Kitchen & Dining",
+      "Home Goods"
     ]
   },
   {
@@ -4374,7 +4394,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling",
       "Miscellaneous"
     ]
@@ -4477,10 +4497,9 @@
       "Furniture",
       "Vintage & Antiques",
       "Music & Records",
-      "Home Decor",
+      "Home Goods",
       "Movies & Entertainment",
-      "Appliances",
-      "Miscellaneous"
+      "Appliances"
     ]
   },
   {
@@ -4516,7 +4535,7 @@
       "Toys & Games",
       "Books",
       "Plants & Garden",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -4537,6 +4556,7 @@
       "Furniture",
       "Electronics",
       "Kitchen & Dining",
+      "Home Goods",
       "Jewelry & Accessories",
       "Movies & Entertainment"
     ]
@@ -4595,7 +4615,7 @@
       "Clothing",
       "Furniture",
       "Books",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -4632,7 +4652,7 @@
       "Women's Clothing",
       "Furniture",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Miscellaneous"
     ]
@@ -4672,7 +4692,7 @@
       "Furniture",
       "Kids & Baby",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Appliances",
       "Miscellaneous"
     ]
@@ -4696,7 +4716,7 @@
       "Music & Records",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Office & School",
       "Miscellaneous"
     ]
@@ -4718,7 +4738,7 @@
       "Books",
       "Art & Crafts",
       "Music & Records",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -4739,7 +4759,7 @@
       "Kids & Baby",
       "Vintage & Antiques",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats"
     ]
   },
@@ -4789,7 +4809,7 @@
     "canceled": false,
     "tags": [
       "Clothing",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -4842,7 +4862,7 @@
     "canceled": false,
     "tags": [
       "Clothing",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -4866,7 +4886,7 @@
       "Books",
       "Tools",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -4919,6 +4939,7 @@
       "Electronics",
       "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Free / PWYW",
       "Appliances",
       "Miscellaneous"
@@ -5023,7 +5044,7 @@
       "Art & Crafts",
       "Electronics",
       "Tools",
-      "Home Decor",
+      "Home Goods",
       "Movies & Entertainment",
       "Miscellaneous"
     ]
@@ -5060,7 +5081,7 @@
       "Furniture",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -5098,7 +5119,7 @@
       "Furniture",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies"
     ]
   },
@@ -5118,8 +5139,8 @@
       "Furniture",
       "Tools",
       "Kitchen & Dining",
-      "Cycling",
-      "Miscellaneous"
+      "Home Goods",
+      "Cycling"
     ]
   },
   {
@@ -5139,7 +5160,7 @@
       "Vintage & Antiques",
       "Electronics",
       "Tools",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -5159,6 +5180,7 @@
       "Books",
       "Electronics",
       "Sports & Outdoors",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -5237,8 +5259,7 @@
       "Clothing",
       "Kids & Baby",
       "Art & Crafts",
-      "Kitchen & Dining",
-      "Miscellaneous"
+      "Kitchen & Dining"
     ]
   },
   {
@@ -5295,7 +5316,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories"
     ]
   },
@@ -5478,8 +5499,8 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Kitchen & Dining",
-      "Sports & Outdoors"
+      "Sports & Outdoors",
+      "Home Goods"
     ]
   },
   {
@@ -5581,7 +5602,7 @@
       "Vintage & Antiques",
       "Electronics",
       "Music & Records",
-      "Home Decor",
+      "Home Goods",
       "Collectibles"
     ]
   },
@@ -5644,7 +5665,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling"
     ]
   },
@@ -5662,6 +5683,7 @@
       "Furniture",
       "Plants & Garden",
       "Sports & Outdoors",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -5742,6 +5764,7 @@
       "Shoes & Footwear",
       "Books",
       "Kitchen & Dining",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -5778,7 +5801,7 @@
       "Women's Clothing",
       "Shoes & Footwear",
       "Furniture",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -5829,7 +5852,7 @@
       "Kids & Baby",
       "Books",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling"
     ]
   },
@@ -5848,7 +5871,7 @@
       "Furniture",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -5935,6 +5958,7 @@
       "Clothing",
       "Toys & Games",
       "Sports & Outdoors",
+      "Home Goods",
       "Cycling",
       "Miscellaneous"
     ]
@@ -5977,7 +6001,7 @@
       "Vintage & Antiques",
       "Electronics",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -5995,7 +6019,7 @@
     "tags": [
       "Furniture",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Collectibles",
       "Miscellaneous"
     ]
@@ -6015,7 +6039,7 @@
       "Toys & Games",
       "Vintage & Antiques",
       "Tools",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -6046,7 +6070,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Music & Records",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -6145,8 +6169,8 @@
       "Clothing",
       "Shoes & Footwear",
       "Kids & Baby",
-      "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Pet Supplies",
       "Free / PWYW",
       "Cycling"
@@ -6199,7 +6223,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -6219,6 +6243,7 @@
       "Plants & Garden",
       "Tools",
       "Kitchen & Dining",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -6237,7 +6262,7 @@
       "Men's Clothing",
       "Books",
       "Vintage & Antiques",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -6292,7 +6317,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -6313,8 +6338,8 @@
       "Kids & Baby",
       "Toys & Games",
       "Art & Crafts",
-      "Kitchen & Dining",
-      "Sports & Outdoors"
+      "Sports & Outdoors",
+      "Home Goods"
     ]
   },
   {
@@ -6382,8 +6407,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Home Decor",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -6398,6 +6422,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -6481,8 +6506,7 @@
       "Furniture",
       "Plants & Garden",
       "Kitchen & Dining",
-      "Home Decor",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -6498,9 +6522,9 @@
     "tags": [
       "Books",
       "Tools",
+      "Home Goods",
       "Free / PWYW",
-      "Collectibles",
-      "Miscellaneous"
+      "Collectibles"
     ]
   },
   {
@@ -6516,7 +6540,7 @@
     "tags": [
       "Clothing",
       "Vintage & Antiques",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -6532,7 +6556,7 @@
     "tags": [
       "Clothing",
       "Furniture",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -6552,7 +6576,7 @@
       "Vintage & Antiques",
       "Music & Records",
       "Tools",
-      "Kitchen & Dining",
+      "Home Goods",
       "Office & School",
       "Miscellaneous"
     ]
@@ -6628,7 +6652,7 @@
       "Electronics",
       "Tools",
       "Sports & Outdoors",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -6645,7 +6669,7 @@
       "Clothing",
       "Art & Crafts",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -6684,8 +6708,8 @@
       "Kids & Baby",
       "Music & Records",
       "Sports & Outdoors",
-      "Cycling",
-      "Miscellaneous"
+      "Home Goods",
+      "Cycling"
     ]
   },
   {
@@ -6704,7 +6728,7 @@
       "Toys & Games",
       "Books",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Collectibles",
       "Miscellaneous"
     ]
@@ -6760,7 +6784,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -6797,6 +6821,7 @@
     "tags": [
       "Clothing",
       "Kitchen & Dining",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -6836,6 +6861,7 @@
       "Books",
       "Tools",
       "Sports & Outdoors",
+      "Home Goods",
       "Food & Treats",
       "Free / PWYW",
       "Cycling",
@@ -6878,6 +6904,7 @@
       "Art & Crafts",
       "Tools",
       "Kitchen & Dining",
+      "Home Goods",
       "Office & School",
       "Miscellaneous"
     ]
@@ -6913,9 +6940,9 @@
       "Books",
       "Plants & Garden",
       "Electronics",
+      "Home Goods",
       "Movies & Entertainment",
-      "Collectibles",
-      "Miscellaneous"
+      "Collectibles"
     ]
   },
   {
@@ -6931,7 +6958,7 @@
     "tags": [
       "Kids & Baby",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling",
       "Automotive"
     ]
@@ -6964,7 +6991,7 @@
     "tags": [
       "Furniture",
       "Kids & Baby",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -6983,7 +7010,7 @@
       "Men's Clothing",
       "Kids & Baby",
       "Toys & Games",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -7000,8 +7027,8 @@
       "Kids & Baby",
       "Tools",
       "Sports & Outdoors",
-      "Cycling",
-      "Miscellaneous"
+      "Home Goods",
+      "Cycling"
     ]
   },
   {
@@ -7031,7 +7058,7 @@
     "canceled": false,
     "tags": [
       "Kids & Baby",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -7052,7 +7079,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling"
     ]
   },
@@ -7099,9 +7126,8 @@
     "tags": [
       "Kids & Baby",
       "Books",
-      "Home Decor",
-      "Pet Supplies",
-      "Miscellaneous"
+      "Home Goods",
+      "Pet Supplies"
     ]
   },
   {
@@ -7140,11 +7166,10 @@
       "Electronics",
       "Music & Records",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Movies & Entertainment",
-      "Collectibles",
-      "Miscellaneous"
+      "Collectibles"
     ]
   },
   {
@@ -7160,7 +7185,7 @@
     "tags": [
       "Furniture",
       "Kids & Baby",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -7179,6 +7204,7 @@
       "Furniture",
       "Kids & Baby",
       "Sports & Outdoors",
+      "Home Goods",
       "Appliances",
       "Cycling",
       "Miscellaneous"
@@ -7236,7 +7262,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Pet Supplies"
     ]
@@ -7257,8 +7283,7 @@
       "Books",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -7312,6 +7337,7 @@
       "Kids & Baby",
       "Tools",
       "Kitchen & Dining",
+      "Home Goods",
       "Holiday & Seasonal",
       "Miscellaneous"
     ]
@@ -7349,8 +7375,8 @@
       "Toys & Games",
       "Art & Crafts",
       "Electronics",
-      "Collectibles",
-      "Miscellaneous"
+      "Home Goods",
+      "Collectibles"
     ]
   },
   {
@@ -7367,8 +7393,8 @@
       "Clothing",
       "Furniture",
       "Kids & Baby",
-      "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Jewelry & Accessories",
       "Food & Treats"
     ]
@@ -7390,7 +7416,7 @@
       "Shoes & Footwear",
       "Tools",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Pet Supplies",
       "Cycling",
@@ -7426,7 +7452,7 @@
     "tags": [
       "Clothing",
       "Furniture",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -7445,7 +7471,7 @@
       "Vintage & Antiques",
       "Music & Records",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Pet Supplies",
       "Cycling"
@@ -7484,6 +7510,7 @@
       "Vintage & Antiques",
       "Tools",
       "Sports & Outdoors",
+      "Home Goods",
       "Pet Supplies",
       "Collectibles",
       "Miscellaneous"
@@ -7504,8 +7531,8 @@
       "Furniture",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Cycling",
       "Automotive",
       "Miscellaneous"
@@ -7558,7 +7585,7 @@
       "Vintage & Antiques",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -7612,7 +7639,7 @@
     "tags": [
       "Books",
       "Vintage & Antiques",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -7630,7 +7657,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Appliances",
       "Miscellaneous"
     ]
@@ -7688,7 +7715,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Tools",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -7826,6 +7853,7 @@
       "Furniture",
       "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Automotive",
       "Miscellaneous"
     ]
@@ -7843,7 +7871,7 @@
     "tags": [
       "Clothing",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -7863,6 +7891,7 @@
       "Women's Clothing",
       "Men's Clothing",
       "Kitchen & Dining",
+      "Home Goods",
       "Free / PWYW",
       "Miscellaneous"
     ]
@@ -7885,8 +7914,7 @@
       "Vintage & Antiques",
       "Music & Records",
       "Tools",
-      "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Collectibles"
     ]
@@ -7908,9 +7936,9 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
+      "Home Goods",
       "Jewelry & Accessories",
-      "Appliances",
-      "Miscellaneous"
+      "Appliances"
     ]
   },
   {
@@ -7977,7 +8005,7 @@
       "Shoes & Footwear",
       "Furniture",
       "Tools",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories"
     ]
   },
@@ -8013,7 +8041,7 @@
     "tags": [
       "Clothing",
       "Women's Clothing",
-      "Home Decor",
+      "Home Goods",
       "Free / PWYW",
       "Miscellaneous"
     ]
@@ -8055,7 +8083,7 @@
       "Men's Clothing",
       "Shoes & Footwear",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories"
     ]
   },
@@ -8093,7 +8121,7 @@
       "Furniture",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -8114,8 +8142,8 @@
       "Toys & Games",
       "Plants & Garden",
       "Sports & Outdoors",
-      "Collectibles",
-      "Miscellaneous"
+      "Home Goods",
+      "Collectibles"
     ]
   },
   {
@@ -8154,7 +8182,7 @@
       "Plants & Garden",
       "Art & Crafts",
       "Tools",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -8225,7 +8253,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Vintage & Antiques",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -8301,7 +8329,7 @@
     "tags": [
       "Clothing",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -8398,6 +8426,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Appliances",
       "Collectibles",
       "Miscellaneous"
@@ -8462,6 +8491,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Sports & Outdoors",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -8483,7 +8513,7 @@
       "Kids & Baby",
       "Art & Crafts",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Collectibles",
       "Miscellaneous"
     ]
@@ -8505,7 +8535,7 @@
       "Electronics",
       "Tools",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Appliances"
     ]
@@ -8524,7 +8554,7 @@
       "Clothing",
       "Kids & Baby",
       "Books",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -8573,8 +8603,8 @@
       "Toys & Games",
       "Books",
       "Music & Records",
-      "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Cycling"
     ]
   },
@@ -8607,7 +8637,7 @@
       "Clothing",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Miscellaneous"
     ]
@@ -8624,7 +8654,7 @@
     "canceled": false,
     "tags": [
       "Tools",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -8642,6 +8672,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Plants & Garden",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -8659,7 +8690,7 @@
       "Clothing",
       "Furniture",
       "Electronics",
-      "Home Decor",
+      "Home Goods",
       "Free / PWYW",
       "Miscellaneous"
     ]
@@ -8680,7 +8711,7 @@
       "Books",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -8715,6 +8746,7 @@
       "Toys & Games",
       "Electronics",
       "Tools",
+      "Home Goods",
       "Movies & Entertainment",
       "Miscellaneous"
     ]
@@ -8746,8 +8778,7 @@
     "tags": [
       "Clothing",
       "Kids & Baby",
-      "Toys & Games",
-      "Miscellaneous"
+      "Toys & Games"
     ]
   },
   {
@@ -8816,7 +8847,7 @@
       "Clothing",
       "Men's Clothing",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies"
     ]
   },
@@ -8852,7 +8883,7 @@
       "Furniture",
       "Art & Crafts",
       "Tools",
-      "Home Decor",
+      "Home Goods",
       "Appliances",
       "Automotive",
       "Miscellaneous"
@@ -8872,8 +8903,8 @@
       "Furniture",
       "Art & Crafts",
       "Tools",
-      "Office & School",
-      "Miscellaneous"
+      "Home Goods",
+      "Office & School"
     ]
   },
   {
@@ -8909,7 +8940,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -8961,7 +8992,7 @@
     "tags": [
       "Clothing",
       "Art & Crafts",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -9009,7 +9040,7 @@
     "description": "Lots of office supplies, home goods, and unique items to make your work-from-home station complete",
     "canceled": false,
     "tags": [
-      "Home Decor",
+      "Home Goods",
       "Office & School",
       "Miscellaneous"
     ]
@@ -9049,7 +9080,7 @@
       "Furniture",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -9071,7 +9102,7 @@
       "Plants & Garden",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -9091,7 +9122,7 @@
       "Shoes & Footwear",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -9108,7 +9139,7 @@
       "Toys & Games",
       "Books",
       "Plants & Garden",
-      "Home Decor",
+      "Home Goods",
       "Appliances",
       "Collectibles",
       "Miscellaneous"
@@ -9167,8 +9198,8 @@
       "Plants & Garden",
       "Art & Crafts",
       "Vintage & Antiques",
-      "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -9213,7 +9244,7 @@
       "Vintage & Antiques",
       "Tools",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Office & School",
       "Collectibles"
@@ -9285,6 +9316,7 @@
       "Vintage & Antiques",
       "Music & Records",
       "Tools",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -9307,7 +9339,7 @@
       "Plants & Garden",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Collectibles",
       "Miscellaneous"
@@ -9356,7 +9388,7 @@
     "tags": [
       "Clothing",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Holiday & Seasonal"
     ]
@@ -9376,6 +9408,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -9445,7 +9478,7 @@
     "tags": [
       "Furniture",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -9522,7 +9555,7 @@
       "Plants & Garden",
       "Electronics",
       "Kitchen & Dining",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -9564,7 +9597,7 @@
       "Vintage & Antiques",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -9583,7 +9616,7 @@
       "Toys & Games",
       "Art & Crafts",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -9617,7 +9650,7 @@
       "Furniture",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -9633,7 +9666,7 @@
     "tags": [
       "Furniture",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -9710,7 +9743,7 @@
       "Vintage & Antiques",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -9751,8 +9784,7 @@
       "Shoes & Footwear",
       "Toys & Games",
       "Books",
-      "Home Decor",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -9797,7 +9829,7 @@
       "Toys & Games",
       "Plants & Garden",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Free / PWYW",
       "Holiday & Seasonal"
@@ -9837,8 +9869,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Music & Records",
-      "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -9908,6 +9939,7 @@
     "tags": [
       "Clothing",
       "Furniture",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -9925,6 +9957,7 @@
       "Clothing",
       "Furniture",
       "Art & Crafts",
+      "Home Goods",
       "Free / PWYW",
       "Miscellaneous"
     ]
@@ -9943,6 +9976,7 @@
       "Clothing",
       "Women's Clothing",
       "Kids & Baby",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -9980,9 +10014,8 @@
       "Toys & Games",
       "Books",
       "Plants & Garden",
-      "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling",
       "Miscellaneous"
     ]
@@ -10085,6 +10118,7 @@
       "Clothing",
       "Tools",
       "Kitchen & Dining",
+      "Home Goods",
       "Appliances",
       "Automotive",
       "Miscellaneous"
@@ -10103,7 +10137,7 @@
     "tags": [
       "Clothing",
       "Vintage & Antiques",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -10121,7 +10155,7 @@
       "Clothing",
       "Women's Clothing",
       "Toys & Games",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -10173,8 +10207,8 @@
       "Furniture",
       "Kids & Baby",
       "Sports & Outdoors",
-      "Automotive",
-      "Miscellaneous"
+      "Home Goods",
+      "Automotive"
     ]
   },
   {
@@ -10194,7 +10228,7 @@
       "Tools",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -10243,8 +10277,8 @@
     "canceled": false,
     "tags": [
       "Art & Crafts",
-      "Office & School",
-      "Miscellaneous"
+      "Home Goods",
+      "Office & School"
     ]
   },
   {
@@ -10310,7 +10344,7 @@
       "Women's Clothing",
       "Men's Clothing",
       "Kids & Baby",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -10327,7 +10361,7 @@
     "canceled": false,
     "tags": [
       "Clothing",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -10347,6 +10381,7 @@
       "Kids & Baby",
       "Art & Crafts",
       "Tools",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -10402,8 +10437,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
-      "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -10440,7 +10474,7 @@
       "Books",
       "Plants & Garden",
       "Tools",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -10472,7 +10506,7 @@
       "Furniture",
       "Plants & Garden",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Free / PWYW"
     ]
   },
@@ -10562,7 +10596,7 @@
       "Art & Crafts",
       "Tools",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Cycling",
       "Office & School",
@@ -10581,7 +10615,7 @@
     "canceled": false,
     "tags": [
       "Books",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories"
     ]
   },
@@ -10600,6 +10634,7 @@
       "Toys & Games",
       "Art & Crafts",
       "Sports & Outdoors",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -10617,8 +10652,8 @@
       "Clothing",
       "Furniture",
       "Tools",
-      "Kitchen & Dining",
       "Sports & Outdoors",
+      "Home Goods",
       "Cycling"
     ]
   },
@@ -10652,7 +10687,7 @@
       "Women's Clothing",
       "Men's Clothing",
       "Shoes & Footwear",
-      "Kitchen & Dining",
+      "Home Goods",
       "Food & Treats"
     ]
   },
@@ -10703,7 +10738,8 @@
     "canceled": false,
     "tags": [
       "Kitchen & Dining",
-      "Sports & Outdoors"
+      "Sports & Outdoors",
+      "Home Goods"
     ]
   },
   {
@@ -10755,7 +10791,7 @@
       "Toys & Games",
       "Books",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -10837,7 +10873,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Pet Supplies",
       "Free / PWYW",
       "Miscellaneous"
@@ -10952,6 +10988,7 @@
       "Clothing",
       "Tools",
       "Sports & Outdoors",
+      "Home Goods",
       "Appliances",
       "Miscellaneous"
     ]
@@ -10973,7 +11010,7 @@
       "Toys & Games",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -10992,7 +11029,7 @@
       "Art & Crafts",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Pet Supplies",
       "Free / PWYW",
@@ -11029,7 +11066,7 @@
       "Books",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -11089,6 +11126,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
+      "Home Goods",
       "Free / PWYW",
       "Miscellaneous"
     ]
@@ -11111,7 +11149,7 @@
       "Kids & Baby",
       "Vintage & Antiques",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling",
       "Miscellaneous"
     ]
@@ -11160,7 +11198,7 @@
     "tags": [
       "Clothing",
       "Furniture",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -11213,7 +11251,7 @@
       "Books",
       "Electronics",
       "Tools",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   },
   {
@@ -11289,8 +11327,7 @@
       "Plants & Garden",
       "Art & Crafts",
       "Tools",
-      "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories",
       "Movies & Entertainment"
     ]
@@ -11311,8 +11348,8 @@
       "Toys & Games",
       "Plants & Garden",
       "Kitchen & Dining",
-      "Movies & Entertainment",
-      "Miscellaneous"
+      "Home Goods",
+      "Movies & Entertainment"
     ]
   },
   {
@@ -11330,6 +11367,7 @@
       "Kids & Baby",
       "Vintage & Antiques",
       "Tools",
+      "Home Goods",
       "Jewelry & Accessories",
       "Miscellaneous"
     ]
@@ -11371,7 +11409,7 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Collectibles"
     ]
   },
@@ -11407,7 +11445,7 @@
     "tags": [
       "Furniture",
       "Kitchen & Dining",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -11430,8 +11468,8 @@
       "Electronics",
       "Tools",
       "Kitchen & Dining",
-      "Movies & Entertainment",
-      "Miscellaneous"
+      "Home Goods",
+      "Movies & Entertainment"
     ]
   },
   {
@@ -11449,9 +11487,8 @@
       "Women's Clothing",
       "Shoes & Footwear",
       "Furniture",
-      "Home Decor",
-      "Appliances",
-      "Miscellaneous"
+      "Home Goods",
+      "Appliances"
     ]
   },
   {
@@ -11597,7 +11634,7 @@
       "Furniture",
       "Kids & Baby",
       "Sports & Outdoors",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -11615,7 +11652,7 @@
       "Furniture",
       "Books",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling"
     ]
   },
@@ -11673,7 +11710,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -11711,7 +11748,7 @@
       "Plants & Garden",
       "Tools",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Appliances",
       "Miscellaneous"
     ]
@@ -11729,7 +11766,7 @@
     "tags": [
       "Clothing",
       "Art & Crafts",
-      "Home Decor",
+      "Home Goods",
       "Food & Treats",
       "Miscellaneous"
     ]
@@ -11748,7 +11785,7 @@
       "Clothing",
       "Kids & Baby",
       "Tools",
-      "Miscellaneous"
+      "Home Goods"
     ]
   },
   {
@@ -11764,7 +11801,7 @@
     "tags": [
       "Clothing",
       "Men's Clothing",
-      "Home Decor"
+      "Home Goods"
     ]
   },
   {
@@ -11783,7 +11820,7 @@
       "Vintage & Antiques",
       "Music & Records",
       "Tools",
-      "Home Decor",
+      "Home Goods",
       "Collectibles",
       "Miscellaneous"
     ]
@@ -11929,7 +11966,7 @@
       "Kids & Baby",
       "Art & Crafts",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Jewelry & Accessories"
     ]
   },
@@ -11980,6 +12017,7 @@
     "tags": [
       "Furniture",
       "Toys & Games",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -12001,7 +12039,7 @@
       "Art & Crafts",
       "Music & Records",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Cycling"
     ]
   },
@@ -12090,7 +12128,7 @@
     "tags": [
       "Art & Crafts",
       "Kitchen & Dining",
-      "Home Decor",
+      "Home Goods",
       "Miscellaneous"
     ]
   },
@@ -12133,7 +12171,7 @@
       "Music & Records",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Home Decor",
+      "Home Goods",
       "Office & School"
     ]
   },
@@ -12226,7 +12264,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Books",
-      "Kitchen & Dining"
+      "Home Goods"
     ]
   }
 ]

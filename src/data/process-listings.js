@@ -65,15 +65,15 @@ const TAG_RULES = [
   },
   {
     tag: "Kitchen & Dining",
-    re: /\b(kitchen|kitchenware|housewares|cooking|cookware|appliances?|dishes|plates?|glassware|pots?|pans?|utensils?|dining|bakeware|mixer|blender|microwave|espresso|cuisinart|pyrex|cast\s?iron|kitchenaid|crockpot|instant\s?pot|cookbooks?|drinkware)\b/i,
+    re: /\b(kitchen|kitchenware|cooking|cookware|appliances?|dishes|plates?|glassware|pots?|pans?|utensils?|dining|bakeware|mixer|blender|microwave|espresso|cuisinart|pyrex|cast\s?iron|kitchenaid|crockpot|instant\s?pot|cookbooks?|drinkware)\b/i,
   },
   {
     tag: "Sports & Outdoors",
     re: /\b(sports?|sporting|outdoors?|camping|bikes?|bicycles?|kayaks?|skis?|skiing|snowboards?|golf|tennis|yoga|exercise|fitness|running|rowing|rower|longboard|skateboards?|climbing|hiking|fishing|baseball|soccer|softball|pickleball|weights|kettlebells|elliptical|treadmill|peloton|scooters?|paddleboard|snorkel|scuba|ebikes?)\b/i,
   },
   {
-    tag: "Home Decor",
-    re: /\b(decor|lamps?|rugs?|mirrors?|lighting|linens?|pillows?|candles?|vases?|frames?|framed|ornaments?|blankets?|bedding|curtains?|drapes?|home\s?goods)\b/i,
+    tag: "Home Goods",
+    re: /\b(decor|lamps?|rugs?|mirrors?|lighting|linens?|pillows?|candles?|vases?|frames?|framed|ornaments?|blankets?|bedding|curtains?|drapes?|home\s?goods|household\s?goods|housewares?|house\s?wares?|household\s?items?)\b/i,
   },
   {
     tag: "Jewelry & Accessories",
@@ -121,7 +121,7 @@ const TAG_RULES = [
   },
   {
     tag: "Miscellaneous",
-    re: /\b(miscellaneous|misc\b|variety|eclectic|assorted|random|something\s+for\s+everyone|household\s+items?|house\s+stuff|all\s+kinds|downsizing|downsize|moving\s+sale|cleanout|clear\s?out|clearing\b|purge|everything\s+must\s+go|lots\s+to\s+discover|everything\b|mix\b|vendors?|goods\b|junk\b|cohousing|pop.?up|block\s+sale|personal\s+items?)\b/i,
+    re: /\b(miscellaneous|misc\b|variety|eclectic|assorted|random|something\s+for\s+everyone|all\s+kinds|downsizing|downsize|moving\s+sale|cleanout|clear\s?out|clearing\b|purge|everything\s+must\s+go|lots\s+to\s+discover|everything\b|mix\b|vendors?|goods\b|junk\b|cohousing|pop.?up|block\s+sale|personal\s+items?)\b/i,
   },
 ];
 

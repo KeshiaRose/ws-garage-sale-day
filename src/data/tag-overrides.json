@@ -19,6 +19,11 @@
       "Miscellaneous"
     ]
   },
+  "8": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "9": {
     "remove": [
       "Miscellaneous"
@@ -32,11 +37,30 @@
   "13": {
     "remove": [
       "Jewelry & Accessories"
+    ],
+    "add": [
+      "Office & School"
+    ]
+  },
+  "15": {
+    "add": [
+      "Home Goods"
     ]
   },
   "19": {
     "remove": [
       "Jewelry & Accessories"
+    ]
+  },
+  "24": {
+    "remove": [
+      "Electronics"
+    ]
+  },
+  "27": {
+    "add": [
+      "Women's Clothing",
+      "Appliances"
     ]
   },
   "28": {
@@ -45,9 +69,29 @@
       "Pet Supplies"
     ]
   },
+  "29": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "30": {
     "remove": [
       "Tools"
+    ]
+  },
+  "31": {
+    "add": [
+      "Furniture"
+    ]
+  },
+  "32": {
+    "add": [
+      "Appliances"
+    ]
+  },
+  "34": {
+    "add": [
+      "Home Goods"
     ]
   },
   "35": {
@@ -55,9 +99,24 @@
       "Sports & Outdoors"
     ]
   },
+  "36": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "39": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "40": {
     "remove": [
       "Jewelry & Accessories"
+    ]
+  },
+  "41": {
+    "add": [
+      "Appliances"
     ]
   },
   "44": {
@@ -65,9 +124,48 @@
       "Jewelry & Accessories"
     ]
   },
+  "45": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "46": {
+    "add": [
+      "Food & Treats",
+      "Miscellaneous"
+    ],
+    "remove": [
+      "Plants & Garden"
+    ]
+  },
+  "49": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "50": {
+    "add": [
+      "Furniture"
+    ]
+  },
+  "51": {
+    "add": [
+      "Holiday & Seasonal"
+    ]
+  },
+  "54": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "55": {
     "add": [
       "Clothing"
+    ]
+  },
+  "56": {
+    "add": [
+      "Home Goods"
     ]
   },
   "57": {
@@ -75,10 +173,68 @@
       "Sports & Outdoors"
     ]
   },
+  "63": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "64": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "69": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "70": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "71": {
+    "add": [
+      "Men's Clothing"
+    ]
+  },
+  "73": {
+    "add": [
+      "Holiday & Seasonal"
+    ]
+  },
   "74": {
     "remove": [
       "Jewelry & Accessories",
       "Tools"
+    ],
+    "add": [
+      "Automotive"
+    ]
+  },
+  "75": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "79": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "80": {
+    "remove": [
+      "Plants & Garden"
+    ]
+  },
+  "81": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "85": {
+    "add": [
+      "Home Goods"
     ]
   },
   "93": {
@@ -108,6 +264,11 @@
       "Food & Treats"
     ]
   },
+  "117": {
+    "remove": [
+      "Electronics"
+    ]
+  },
   "122": {
     "remove": [
       "Sports & Outdoors"
@@ -121,6 +282,9 @@
   "137": {
     "remove": [
       "Tools"
+    ],
+    "add": [
+      "Home Goods"
     ]
   },
   "140": {
@@ -193,6 +357,9 @@
   "215": {
     "remove": [
       "Jewelry & Accessories"
+    ],
+    "add": [
+      "Home Goods"
     ]
   },
   "221": {
@@ -203,6 +370,9 @@
   "243": {
     "remove": [
       "Sports & Outdoors"
+    ],
+    "add": [
+      "Home Goods"
     ]
   },
   "249": {
@@ -220,9 +390,20 @@
       "Tools"
     ]
   },
+  "268": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "270": {
     "remove": [
       "Tools"
+    ]
+  },
+  "271": {
+    "remove": [
+      "Vintage & Antiques",
+      "Electronics"
     ]
   },
   "282": {
@@ -256,6 +437,11 @@
       "Tools"
     ]
   },
+  "295": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "301": {
     "remove": [
       "Tools"
@@ -281,6 +467,11 @@
       "Tools"
     ]
   },
+  "332": {
+    "remove": [
+      "Plants & Garden"
+    ]
+  },
   "333": {
     "remove": [
       "Free / PWYW"
@@ -296,6 +487,16 @@
       "Tools"
     ]
   },
+  "348": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "350": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "362": {
     "remove": [
       "Free / PWYW"
@@ -304,6 +505,11 @@
   "367": {
     "remove": [
       "Jewelry & Accessories"
+    ]
+  },
+  "368": {
+    "add": [
+      "Home Goods"
     ]
   },
   "376": {
@@ -316,6 +522,11 @@
       "Jewelry & Accessories"
     ]
   },
+  "385": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "392": {
     "remove": [
       "Jewelry & Accessories"
@@ -324,6 +535,11 @@
   "395": {
     "remove": [
       "Sports & Outdoors"
+    ]
+  },
+  "398": {
+    "add": [
+      "Home Goods"
     ]
   },
   "401": {
@@ -335,6 +551,11 @@
     "remove": [
       "Food & Treats",
       "Pet Supplies"
+    ]
+  },
+  "405": {
+    "add": [
+      "Home Goods"
     ]
   },
   "406": {
@@ -358,6 +579,21 @@
       "Collectibles"
     ]
   },
+  "432": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "438": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "441": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "460": {
     "remove": [
       "Sports & Outdoors"
@@ -378,6 +614,11 @@
       "Food & Treats"
     ]
   },
+  "547": {
+    "add": [
+      "Home Goods"
+    ]
+  },
   "572": {
     "remove": [
       "Pet Supplies"
@@ -386,6 +627,27 @@
   "575": {
     "remove": [
       "Jewelry & Accessories"
+    ]
+  },
+  "579": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "591": {
+    "add": [
+      "Home Goods"
+    ]
+  },
+  "606": {
+    "add": [
+      "Miscellaneous"
+    ]
+  },
+  "612": {
+    "add": [
+      "Home Goods",
+      "Miscellaneous"
     ]
   },
   "615": {
@@ -398,9 +660,19 @@
       "Jewelry & Accessories"
     ]
   },
+  "622": {
+    "remove": [
+      "Plants & Garden"
+    ]
+  },
   "625": {
     "remove": [
       "Pet Supplies"
+    ]
+  },
+  "643": {
+    "add": [
+      "Home Goods"
     ]
   },
   "646": {

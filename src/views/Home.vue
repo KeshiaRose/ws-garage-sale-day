@@ -103,7 +103,7 @@ for (const l of listings) {
 }
 const TAG_ORDER = [
   'Clothing', "Women's Clothing", "Men's Clothing", 'Shoes & Footwear', 'Jewelry & Accessories', 'Kids & Baby',
-  'Furniture', 'Home Decor', 'Kitchen & Dining', 'Appliances', 'Tools',
+  'Furniture', 'Home Goods', 'Kitchen & Dining', 'Appliances', 'Tools',
   'Books', 'Art & Crafts', 'Toys & Games', 'Music & Records', 'Movies & Entertainment', 'Electronics', 'Collectibles', 'Vintage & Antiques',
   'Sports & Outdoors', 'Cycling', 'Automotive',
   'Plants & Garden', 'Pet Supplies',

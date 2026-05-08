@@ -32,7 +32,7 @@ const TAG_COLORS = {
   'Tools': 'bg-stone-200 text-stone-700',
   'Kitchen & Dining': 'bg-red-100 text-red-700',
   'Sports & Outdoors': 'bg-teal-100 text-teal-700',
-  'Home Decor': 'bg-fuchsia-100 text-fuchsia-700',
+  'Home Goods': 'bg-fuchsia-100 text-fuchsia-700',
   'Jewelry & Accessories': 'bg-pink-100 text-pink-700',
   'Food & Treats': 'bg-lime-100 text-lime-700',
   'Pet Supplies': 'bg-emerald-100 text-emerald-700',
