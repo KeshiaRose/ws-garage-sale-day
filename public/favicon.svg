@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Navy rounded square background -->
+  <rect width="32" height="32" rx="6" fill="#2B2A50"/>
+  <!-- Coral price tag (vertical, pointed bottom) -->
+  <path d="M12 6 H20 Q24 6 24 10 V21 L16 27 L8 21 V10 Q8 6 12 6 Z" fill="#E8705C"/>
+  <!-- String hole -->
+  <circle cx="16" cy="11" r="2.2" fill="#2B2A50"/>
+</svg>

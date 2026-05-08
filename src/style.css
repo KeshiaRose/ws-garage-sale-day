@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #2b2a50;
+  --color-coral: #e8705c;
+  --color-peach: #f7c4a8;
+  --color-cream: #fbf8f4;
+  --color-dark-bg: #13122a;
+  --color-dark-surface: #1a1938;
+  --color-dark-card: #1f1e3d;
+  --color-dark-border: #2e2d5a;
+}
+
+:root {
+  font-family: "Nunito", system-ui, sans-serif;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-light {
+  scrollbar-width: thin;
+  scrollbar-color: #e8c9b4 transparent;
+}
+.scrollbar-light::-webkit-scrollbar {
+  width: 5px;
+}
+.scrollbar-light::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-light::-webkit-scrollbar-thumb {
+  background: #e8c9b4;
+  border-radius: 9999px;
+}
+.scrollbar-light::-webkit-scrollbar-thumb:hover {
+  background: #d4a88a;
+}
+
+.scrollbar-dark {
+  scrollbar-width: thin;
+  scrollbar-color: #2e2d5a transparent;
+}
+.scrollbar-dark::-webkit-scrollbar {
+  width: 5px;
+}
+.scrollbar-dark::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-dark::-webkit-scrollbar-thumb {
+  background: #2e2d5a;
+  border-radius: 9999px;
+}
+.scrollbar-dark::-webkit-scrollbar-thumb:hover {
+  background: #3d3c6e;
+}
+
+mark {
+  background-color: #f7c4a8;
+  color: #7a2d1e;
+  border-radius: 2px;
+  padding: 0 1px;
+  font-style: normal;
+}
