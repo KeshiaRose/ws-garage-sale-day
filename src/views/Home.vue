@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, nextTick } from 'vue'
 import allListings from '../data/tagged-listings.json'
 import tagOverrides from '../data/tag-overrides.json'
 import ListingCard from '../components/ListingCard.vue'
@@ -175,6 +175,11 @@ function clearTags() {
 
 function handleMapSelect(id) {
   selectedId.value = id
+  if (id !== null) {
+    nextTick(() => {
+      document.getElementById(`listing-${id}`)?.scrollIntoView({ behavior: 'instant', block: 'nearest' })
+    })
+  }
 }
 
 const showModal = ref(!localStorage.getItem('seenIntro'))
