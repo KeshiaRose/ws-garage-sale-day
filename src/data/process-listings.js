@@ -120,6 +120,14 @@ const TAG_RULES = [
     re: /\b(automotive|auto\s+parts?|car\s+parts?|tires?\b|motor\s+oil|jumper\s+cables?|car\s+accessories|dashcam|car\s+stereo|trailers?\b|truck\s+bed|floor\s+mats?\b|car\s+rack|roof\s+rack|tow\s+hitch|oil\s+change|motorcycles?\b|vespa\b|generators?\b)\b/i,
   },
   {
+    tag: "For a Cause",
+    re: /\b(nonprofits?|non-?profits?|fundraisers?|fundraising|charity|charities|benefiting|benefit\s+sale|proceeds|proceeds\s+(go\s+to|benefit|support|donated?|will\s+go)|501\s*c\s*3|pta\b|pto\b|school\s+fundraiser)\b/i,
+  },
+  {
+    tag: "Open Sunday",
+    re: /\b(sundays?|open\s+sunday|sat\.?\s*[&\/]\s*sun\.?|saturday\s+and\s+sunday|both\s+days?|sunday\s+only|sunday\s+too|weekend\s+sale)\b/i,
+  },
+  {
     tag: "Miscellaneous",
     re: /\b(miscellaneous|misc\b|variety|eclectic|assorted|random|something\s+for\s+everyone|all\s+kinds|downsizing|downsize|moving\s+sale|cleanout|clear\s?out|clearing\b|purge|everything\s+must\s+go|lots\s+to\s+discover|everything\b|mix\b|vendors?|goods\b|junk\b|cohousing|pop.?up|block\s+sale|personal\s+items?)\b/i,
   },

@@ -44,6 +44,8 @@ const TAG_COLORS = {
   'Collectibles': 'bg-amber-200 text-amber-800',
   'Office & School': 'bg-sky-200 text-sky-800',
   'Automotive': 'bg-gray-200 text-gray-700',
+  'For a Cause': 'bg-teal-100 text-teal-700',
+  'Open Sunday': 'bg-violet-100 text-violet-700',
   'Miscellaneous': 'bg-stone-100 text-stone-500',
 }
 
@@ -127,8 +129,7 @@ async function copyAddress() {
 
         <!-- Description -->
         <div v-if="listing.description" class="mb-2.5">
-          <p :class="isDark ? 'text-white/70' : 'text-stone-500'"
-            class="text-sm leading-snug" v-html="highlighted" />
+          <p :class="isDark ? 'text-white/70' : 'text-stone-500'" class="text-sm leading-snug" v-html="highlighted" />
           <span v-if="listing.descriptionOverridden"
             :class="isDark ? 'text-sky-400/80 border-sky-400/30' : 'text-sky-600 border-sky-200'"
             class="inline-flex items-center gap-1 mt-1 text-xs border rounded-full px-2 py-0.5 font-medium">

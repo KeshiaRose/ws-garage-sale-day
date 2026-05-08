@@ -91,6 +91,7 @@
     "canceled": false,
     "tags": [
       "Furniture",
+      "Open Sunday",
       "Miscellaneous"
     ]
   },
@@ -168,7 +169,8 @@
       "Tools",
       "Kitchen & Dining",
       "Home Goods",
-      "Office & School"
+      "Office & School",
+      "Open Sunday"
     ]
   },
   {
@@ -647,7 +649,8 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Home Goods",
-      "Collectibles"
+      "Collectibles",
+      "Open Sunday"
     ]
   },
   {
@@ -843,7 +846,8 @@
     "canceled": false,
     "tags": [
       "Plants & Garden",
-      "Tools"
+      "Tools",
+      "For a Cause"
     ]
   },
   {
@@ -986,7 +990,8 @@
       "Vintage & Antiques",
       "Music & Records",
       "Home Goods",
-      "Collectibles"
+      "Collectibles",
+      "Open Sunday"
     ]
   },
   {
@@ -1139,6 +1144,7 @@
     "canceled": false,
     "tags": [
       "Art & Crafts",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -1254,7 +1260,8 @@
       "Clothing",
       "Furniture",
       "Kids & Baby",
-      "Toys & Games"
+      "Toys & Games",
+      "For a Cause"
     ]
   },
   {
@@ -1506,6 +1513,7 @@
     "description": "Visit the Southside Revolution Junior Roller Derby Garage Sale! Shop an eclectic selection of goods to support our nonprofit league!",
     "canceled": false,
     "tags": [
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -1578,7 +1586,8 @@
       "Home Goods",
       "Jewelry & Accessories",
       "Food & Treats",
-      "Collectibles"
+      "Collectibles",
+      "For a Cause"
     ]
   },
   {
@@ -2746,7 +2755,8 @@
       "Art & Crafts",
       "Vintage & Antiques",
       "Tools",
-      "Home Goods"
+      "Home Goods",
+      "For a Cause"
     ]
   },
   {
@@ -2823,6 +2833,7 @@
       "Clothing",
       "Women's Clothing",
       "Sports & Outdoors",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -2912,7 +2923,8 @@
       "Furniture",
       "Plants & Garden",
       "Tools",
-      "Kitchen & Dining"
+      "Kitchen & Dining",
+      "For a Cause"
     ]
   },
   {
@@ -3112,7 +3124,8 @@
       "Books",
       "Art & Crafts",
       "Jewelry & Accessories",
-      "Collectibles"
+      "Collectibles",
+      "Open Sunday"
     ]
   },
   {
@@ -3268,7 +3281,8 @@
     "tags": [
       "Toys & Games",
       "Tools",
-      "Sports & Outdoors"
+      "Sports & Outdoors",
+      "Open Sunday"
     ]
   },
   {
@@ -3540,7 +3554,8 @@
       "Toys & Games",
       "Sports & Outdoors",
       "Food & Treats",
-      "Cycling"
+      "Cycling",
+      "For a Cause"
     ]
   },
   {
@@ -3726,7 +3741,8 @@
       "Kids & Baby",
       "Toys & Games",
       "Electronics",
-      "Jewelry & Accessories"
+      "Jewelry & Accessories",
+      "Open Sunday"
     ]
   },
   {
@@ -3920,7 +3936,8 @@
       "Tools",
       "Sports & Outdoors",
       "Jewelry & Accessories",
-      "Pet Supplies"
+      "Pet Supplies",
+      "For a Cause"
     ]
   },
   {
@@ -4047,7 +4064,8 @@
       "Books",
       "Kitchen & Dining",
       "Sports & Outdoors",
-      "Jewelry & Accessories"
+      "Jewelry & Accessories",
+      "For a Cause"
     ]
   },
   {
@@ -4158,6 +4176,7 @@
       "Home Goods",
       "Food & Treats",
       "Free / PWYW",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -4217,6 +4236,7 @@
       "Art & Crafts",
       "Sports & Outdoors",
       "Cycling",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -4974,7 +4994,8 @@
     "description": "Native plant starts, mostly annuals with showy flowers; Globe Gilia, Plains Coreopsis, Grand Collomia and more. Sunday if supplies last",
     "canceled": false,
     "tags": [
-      "Plants & Garden"
+      "Plants & Garden",
+      "Open Sunday"
     ]
   },
   {
@@ -5462,7 +5483,8 @@
       "Books",
       "Plants & Garden",
       "Sports & Outdoors",
-      "Cycling"
+      "Cycling",
+      "For a Cause"
     ]
   },
   {
@@ -5979,6 +6001,7 @@
       "Sports & Outdoors",
       "Food & Treats",
       "Appliances",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -6021,6 +6044,7 @@
       "Art & Crafts",
       "Home Goods",
       "Collectibles",
+      "Open Sunday",
       "Miscellaneous"
     ]
   },
@@ -6086,6 +6110,7 @@
     "tags": [
       "Plants & Garden",
       "Art & Crafts",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -6471,7 +6496,8 @@
       "Plants & Garden",
       "Tools",
       "Sports & Outdoors",
-      "Cycling"
+      "Cycling",
+      "Open Sunday"
     ]
   },
   {
@@ -6766,7 +6792,8 @@
       "Kitchen & Dining",
       "Sports & Outdoors",
       "Food & Treats",
-      "Cycling"
+      "Cycling",
+      "For a Cause"
     ]
   },
   {
@@ -6991,7 +7018,8 @@
     "tags": [
       "Furniture",
       "Kids & Baby",
-      "Home Goods"
+      "Home Goods",
+      "Open Sunday"
     ]
   },
   {
@@ -7222,6 +7250,7 @@
     "canceled": false,
     "tags": [
       "Plants & Garden",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -7420,6 +7449,7 @@
       "Jewelry & Accessories",
       "Pet Supplies",
       "Cycling",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -7513,6 +7543,7 @@
       "Home Goods",
       "Pet Supplies",
       "Collectibles",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -8162,7 +8193,8 @@
       "Men's Clothing",
       "Shoes & Footwear",
       "Kids & Baby",
-      "Toys & Games"
+      "Toys & Games",
+      "Open Sunday"
     ]
   },
   {
@@ -8429,6 +8461,7 @@
       "Home Goods",
       "Appliances",
       "Collectibles",
+      "Open Sunday",
       "Miscellaneous"
     ]
   },
@@ -8620,7 +8653,8 @@
     "canceled": false,
     "tags": [
       "Plants & Garden",
-      "Food & Treats"
+      "Food & Treats",
+      "Open Sunday"
     ]
   },
   {
@@ -8956,7 +8990,8 @@
     "description": "1/2 of all proceeds will be donated to WestSide Baby",
     "canceled": false,
     "tags": [
-      "Kids & Baby"
+      "Kids & Baby",
+      "For a Cause"
     ]
   },
   {
@@ -9142,6 +9177,7 @@
       "Home Goods",
       "Appliances",
       "Collectibles",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -9224,7 +9260,8 @@
       "Kitchen & Dining",
       "Food & Treats",
       "Free / PWYW",
-      "Appliances"
+      "Appliances",
+      "For a Cause"
     ]
   },
   {
@@ -9317,6 +9354,7 @@
       "Music & Records",
       "Tools",
       "Home Goods",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -9390,7 +9428,8 @@
       "Art & Crafts",
       "Home Goods",
       "Jewelry & Accessories",
-      "Holiday & Seasonal"
+      "Holiday & Seasonal",
+      "For a Cause"
     ]
   },
   {
@@ -9424,7 +9463,8 @@
     "canceled": false,
     "tags": [
       "Plants & Garden",
-      "Food & Treats"
+      "Food & Treats",
+      "For a Cause"
     ]
   },
   {
@@ -9573,6 +9613,7 @@
       "Toys & Games",
       "Electronics",
       "Sports & Outdoors",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -9959,6 +10000,7 @@
       "Art & Crafts",
       "Home Goods",
       "Free / PWYW",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -10296,7 +10338,8 @@
       "Women's Clothing",
       "Men's Clothing",
       "Kids & Baby",
-      "Toys & Games"
+      "Toys & Games",
+      "Open Sunday"
     ]
   },
   {
@@ -10326,6 +10369,7 @@
     "tags": [
       "Clothing",
       "Women's Clothing",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -10688,7 +10732,8 @@
       "Men's Clothing",
       "Shoes & Footwear",
       "Home Goods",
-      "Food & Treats"
+      "Food & Treats",
+      "For a Cause"
     ]
   },
   {
@@ -10811,6 +10856,7 @@
       "Kids & Baby",
       "Plants & Garden",
       "Food & Treats",
+      "For a Cause",
       "Miscellaneous"
     ]
   },
@@ -12097,7 +12143,9 @@
       "Plants & Garden",
       "Art & Crafts",
       "Food & Treats",
-      "Free / PWYW"
+      "Free / PWYW",
+      "For a Cause",
+      "Open Sunday"
     ]
   },
   {
