@@ -1,4 +1,14 @@
 {
+  "3": {
+    "remove": [
+      "Food & Treats"
+    ]
+  },
+  "4": {
+    "remove": [
+      "Tools"
+    ]
+  },
   "5": {
     "remove": [
       "Miscellaneous"
@@ -12,6 +22,400 @@
   "9": {
     "remove": [
       "Miscellaneous"
+    ]
+  },
+  "11": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "13": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "19": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "28": {
+    "remove": [
+      "Free / PWYW",
+      "Pet Supplies"
+    ]
+  },
+  "30": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "35": {
+    "remove": [
+      "Sports & Outdoors"
+    ]
+  },
+  "40": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "44": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "55": {
+    "add": [
+      "Clothing"
+    ]
+  },
+  "57": {
+    "remove": [
+      "Sports & Outdoors"
+    ]
+  },
+  "74": {
+    "remove": [
+      "Jewelry & Accessories",
+      "Tools"
+    ]
+  },
+  "93": {
+    "remove": [
+      "Movies & Entertainment",
+      "Sports & Outdoors"
+    ]
+  },
+  "94": {
+    "remove": [
+      "Collectibles"
+    ]
+  },
+  "97": {
+    "remove": [
+      "Food & Treats",
+      "Jewelry & Accessories"
+    ]
+  },
+  "105": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "109": {
+    "remove": [
+      "Food & Treats"
+    ]
+  },
+  "122": {
+    "remove": [
+      "Sports & Outdoors"
+    ]
+  },
+  "134": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "137": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "140": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "141": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "161": {
+    "remove": [
+      "Sports & Outdoors"
+    ]
+  },
+  "163": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "167": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "172": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "191": {
+    "remove": [
+      "Pet Supplies",
+      "Tools"
+    ]
+  },
+  "194": {
+    "remove": [
+      "Food & Treats",
+      "Pet Supplies"
+    ]
+  },
+  "197": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "198": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "203": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "205": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "214": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "215": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "221": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "243": {
+    "remove": [
+      "Sports & Outdoors"
+    ]
+  },
+  "249": {
+    "remove": [
+      "Free / PWYW"
+    ]
+  },
+  "251": {
+    "remove": [
+      "Free / PWYW"
+    ]
+  },
+  "257": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "270": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "282": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "283": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "285": {
+    "remove": [
+      "Movies & Entertainment",
+      "Free / PWYW"
+    ]
+  },
+  "287": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "289": {
+    "remove": [
+      "Movies & Entertainment"
+    ]
+  },
+  "291": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "301": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "302": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "307": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "309": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "311": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "333": {
+    "remove": [
+      "Free / PWYW"
+    ]
+  },
+  "335": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "342": {
+    "remove": [
+      "Tools"
+    ]
+  },
+  "362": {
+    "remove": [
+      "Free / PWYW"
+    ]
+  },
+  "367": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "376": {
+    "remove": [
+      "Automotive"
+    ]
+  },
+  "381": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "392": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "395": {
+    "remove": [
+      "Sports & Outdoors"
+    ]
+  },
+  "401": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "404": {
+    "remove": [
+      "Food & Treats",
+      "Pet Supplies"
+    ]
+  },
+  "406": {
+    "remove": [
+      "Pet Supplies",
+      "Sports & Outdoors"
+    ]
+  },
+  "408": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "409": {
+    "remove": [
+      "Collectibles"
+    ]
+  },
+  "428": {
+    "remove": [
+      "Collectibles"
+    ]
+  },
+  "460": {
+    "remove": [
+      "Sports & Outdoors"
+    ]
+  },
+  "461": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "466": {
+    "remove": [
+      "Food & Treats"
+    ]
+  },
+  "510": {
+    "remove": [
+      "Food & Treats"
+    ]
+  },
+  "572": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "575": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "615": {
+    "remove": [
+      "Movies & Entertainment"
+    ]
+  },
+  "620": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "625": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "646": {
+    "remove": [
+      "Pet Supplies"
+    ]
+  },
+  "649": {
+    "remove": [
+      "Jewelry & Accessories"
+    ]
+  },
+  "664": {
+    "remove": [
+      "Movies & Entertainment"
     ]
   }
 }

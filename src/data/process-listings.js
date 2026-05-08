@@ -61,7 +61,7 @@ const TAG_RULES = [
   },
   {
     tag: "Tools",
-    re: /\b(tools?|equipment|hardware|drills?|saws?|woodworking|workshop|carpentry|chainsaw|lawn\s?mower|mowers?|trimmer|rototiller|dewalt|ryobi|makita|stihl|husqvarna|building\s+materials?)\b/i,
+    re: /\b(tools?|hardware|drills?|saws?|woodworking|workshop|carpentry|chainsaw|lawn\s?mower|mowers?|trimmer|rototiller|dewalt|ryobi|makita|stihl|husqvarna|building\s+materials?)\b/i,
   },
   {
     tag: "Kitchen & Dining",
@@ -105,7 +105,7 @@ const TAG_RULES = [
   },
   {
     tag: "Cycling",
-    re: /\b(bikes?\b|bicycles?\b|cycling\b|biking\b|e.?bikes?\b|mountain\s+bikes?\b|road\s+bikes?\b|bmx\b|gravel\s+bikes?\b|bike\s+rack|bike\s+parts?|bike\s+accessories|bike\s+lock|bike\s+helmet|bike\s+trailer|bike\s+seat|cycle\s+gear|schwinn\b|woom\b|mongoose\b|pedals?\b)\b/i,
+    re: /\b(bikes?\b|bicycles?\b|cycling\b|biking\b|e.?bikes?\b|mountain\s+bikes?\b|road\s+bikes?\b|bmx\b|gravel\s+bikes?\b|bike\s+rack|bike\s+parts?|bike\s+accessories|bike\s+lock|bike\s+helmet|bike\s+trailer|bike\s+seat|cycle\s+gear|schwinn\b|woom\b|mongoose\b)\b/i,
   },
   {
     tag: "Office & School",
