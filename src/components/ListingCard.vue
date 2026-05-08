@@ -126,8 +126,19 @@ async function copyAddress() {
         </div>
 
         <!-- Description -->
-        <p v-if="listing.description" :class="isDark ? 'text-white/70' : 'text-stone-500'"
-          class="text-sm mb-2.5 leading-snug" v-html="highlighted" />
+        <div v-if="listing.description" class="mb-2.5">
+          <p :class="isDark ? 'text-white/70' : 'text-stone-500'"
+            class="text-sm leading-snug" v-html="highlighted" />
+          <span v-if="listing.descriptionOverridden"
+            :class="isDark ? 'text-sky-400/80 border-sky-400/30' : 'text-sky-600 border-sky-200'"
+            class="inline-flex items-center gap-1 mt-1 text-xs border rounded-full px-2 py-0.5 font-medium">
+            <svg class="w-3 h-3 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+            </svg>
+            Updated by seller
+          </span>
+        </div>
 
         <!-- Tags -->
         <div class="flex flex-wrap gap-1 mb-2.5">

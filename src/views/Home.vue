@@ -2,6 +2,7 @@
 import { ref, computed, watch, nextTick } from 'vue'
 import allListings from '../data/tagged-listings.json'
 import tagOverrides from '../data/tag-overrides.json'
+import descriptionOverrides from '../data/description-overrides.json'
 import ListingCard from '../components/ListingCard.vue'
 import MapView from '../components/MapView.vue'
 
@@ -43,12 +44,17 @@ function moveSaved(id, dir) {
 }
 
 const listings = allListings.filter(l => !l.canceled).map(l => {
-  const ov = tagOverrides[String(l.saleNumber)]
-  if (!ov) return l
+  const key = String(l.saleNumber)
+  const ov = tagOverrides[key]
+  const descOv = descriptionOverrides[key]
   let tags = [...l.tags]
-  if (ov.remove) tags = tags.filter(t => !ov.remove.includes(t))
-  if (ov.add) for (const t of ov.add) if (!tags.includes(t)) tags.push(t)
-  return { ...l, tags }
+  if (ov?.remove) tags = tags.filter(t => !ov.remove.includes(t))
+  if (ov?.add) for (const t of ov.add) if (!tags.includes(t)) tags.push(t)
+  return {
+    ...l,
+    tags,
+    ...(descOv ? { description: descOv, descriptionOverridden: true } : {}),
+  }
 })
 
 // Build vocabulary from all listing text for fuzzy correction
@@ -129,8 +135,19 @@ const correctedWords = computed(() =>
 
 const correctedQuery = computed(() => correctedWords.value.join(' '))
 
+// Words followed by a space are "done" — match them on word boundaries only
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+const exactWords = computed(() => {
+  const words = correctedWords.value
+  const trailingSpace = search.value.toLowerCase().endsWith(' ')
+  return new Set(words.filter((_, i) => trailingSpace || i < words.length - 1))
+})
+
 const filteredListings = computed(() => {
   const words = correctedWords.value
+  const exact = exactWords.value
   const q = correctedQuery.value
 
   const saleNum = (l) => String(l.saleNumber).padStart(3, '0')
@@ -140,7 +157,11 @@ const filteredListings = computed(() => {
       if (activeTags.value.size > 0 && !l.tags.some(t => activeTags.value.has(t))) return false
       if (!words.length) return true
       const hay = `${l.description} ${l.address} ${l.fullAddress} ${saleNum(l)}`.toLowerCase()
-      return words.every(w => hay.includes(w))
+      return words.every(w =>
+        exact.has(w)
+          ? new RegExp(`\\b${escapeRegex(w)}\\b`).test(hay)
+          : hay.includes(w)
+      )
     })
     .sort((a, b) => {
       if (!words.length) return 0

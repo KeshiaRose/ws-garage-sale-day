@@ -125,15 +125,22 @@ const ALL_TAGS = TAG_RULES.map(r => r.tag)
 
 const listings = allListings.filter(l => !l.canceled)
 const overrides = ref({})
+const descOverrides = ref({})
 const searchInput = ref('')
 const activeTag = ref(null)
 const saved = ref(true)
 const saving = ref(false)
 const addingTagFor = ref(null)
+const editingDescFor = ref(null)
+const descDraft = ref('')
 
 onMounted(async () => {
-  const res = await fetch('/api/overrides')
-  overrides.value = await res.json()
+  const [tagRes, descRes] = await Promise.all([
+    fetch('/api/overrides'),
+    fetch('/api/description-overrides'),
+  ])
+  overrides.value = await tagRes.json()
+  descOverrides.value = await descRes.json()
 })
 
 function escapeHtml(str) {
@@ -236,11 +243,18 @@ function setOverride(key, ov) {
 
 async function saveOverrides() {
   saving.value = true
-  await fetch('/api/overrides', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(overrides.value),
-  })
+  await Promise.all([
+    fetch('/api/overrides', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(overrides.value),
+    }),
+    fetch('/api/description-overrides', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(descOverrides.value),
+    }),
+  ])
   saving.value = false
   saved.value = true
 }
@@ -253,8 +267,39 @@ function availableTagsFor(saleNumber) {
 
 function hasOverride(saleNumber) {
   const ov = getOverride(saleNumber)
-  return (ov.add?.length ?? 0) + (ov.remove?.length ?? 0) > 0
+  return (ov.add?.length ?? 0) + (ov.remove?.length ?? 0) > 0 || !!getDescOverride(saleNumber)
 }
+
+function getDescOverride(saleNumber) {
+  return descOverrides.value[String(saleNumber)] ?? null
+}
+
+function startEditDesc(listing) {
+  editingDescFor.value = listing.saleNumber
+  descDraft.value = getDescOverride(listing.saleNumber) ?? listing.description ?? ''
+}
+
+function saveDescOverride(saleNumber) {
+  const text = descDraft.value.trim()
+  const listing = listings.find(l => l.saleNumber === saleNumber)
+  const next = { ...descOverrides.value }
+  if (!text || text === listing?.description) {
+    delete next[String(saleNumber)]
+  } else {
+    next[String(saleNumber)] = text
+  }
+  descOverrides.value = next
+  editingDescFor.value = null
+  saved.value = false
+}
+
+function clearDescOverride(saleNumber) {
+  const next = { ...descOverrides.value }
+  delete next[String(saleNumber)]
+  descOverrides.value = next
+  saved.value = false
+}
+
 </script>
 
 <template>
@@ -323,8 +368,61 @@ function hasOverride(saleNumber) {
         </div>
 
         <!-- Description -->
-        <p v-if="listing.description" class="text-xs text-stone-500 mb-3 leading-snug"
-          v-html="highlightDescription(listing.description)" />
+        <div class="mb-3">
+          <template v-if="editingDescFor === listing.saleNumber">
+            <textarea v-model="descDraft" rows="3"
+              class="w-full text-xs border border-coral rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-coral bg-white resize-y leading-snug"
+              @keydown.escape="editingDescFor = null" />
+            <div class="flex gap-2 mt-1.5">
+              <button @click="saveDescOverride(listing.saleNumber)"
+                class="text-xs font-semibold px-3 py-1 rounded-lg bg-coral text-white hover:bg-coral/90 transition-colors cursor-pointer">
+                Save
+              </button>
+              <button @click="editingDescFor = null"
+                class="text-xs font-semibold px-3 py-1 rounded-lg bg-stone-100 text-stone-600 hover:bg-stone-200 transition-colors cursor-pointer">
+                Cancel
+              </button>
+            </div>
+          </template>
+          <template v-else>
+            <div class="flex items-start gap-2">
+              <div class="flex-1 min-w-0">
+                <p v-if="getDescOverride(listing.saleNumber)"
+                  class="text-xs text-stone-800 leading-snug font-medium"
+                  v-html="highlightDescription(getDescOverride(listing.saleNumber))" />
+                <p v-else-if="listing.description"
+                  class="text-xs text-stone-500 leading-snug"
+                  v-html="highlightDescription(listing.description)" />
+                <p v-else class="text-xs text-stone-300 italic">No description</p>
+                <div v-if="getDescOverride(listing.saleNumber)" class="mt-1 flex items-center gap-2 flex-wrap">
+                  <span class="inline-flex items-center gap-1 text-xs text-sky-600 border border-sky-200 rounded-full px-2 py-0.5 font-medium bg-sky-50">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                    </svg>
+                    Updated by seller
+                  </span>
+                  <p class="text-xs text-stone-400 line-through leading-snug">{{ listing.description }}</p>
+                </div>
+              </div>
+              <button @click="startEditDesc(listing)"
+                class="shrink-0 text-xs text-stone-400 hover:text-coral transition-colors cursor-pointer mt-0.5"
+                title="Edit description">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                </svg>
+              </button>
+              <button v-if="getDescOverride(listing.saleNumber)" @click="clearDescOverride(listing.saleNumber)"
+                class="shrink-0 text-xs text-stone-300 hover:text-red-400 transition-colors cursor-pointer mt-0.5"
+                title="Remove description override">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          </template>
+        </div>
 
         <!-- Tags -->
         <div class="flex flex-wrap gap-1.5 items-center">
@@ -359,6 +457,7 @@ function hasOverride(saleNumber) {
             </select>
           </div>
         </div>
+
 
       </div>
     </div>
