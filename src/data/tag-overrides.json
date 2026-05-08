@@ -1,4 +1,9 @@
 {
+  "2": {
+    "add": [
+      "For a Cause"
+    ]
+  },
   "3": {
     "remove": [
       "Food & Treats"
@@ -234,7 +239,13 @@
   },
   "85": {
     "add": [
-      "Home Goods"
+      "Home Goods",
+      "For a Cause"
+    ]
+  },
+  "87": {
+    "add": [
+      "For a Cause"
     ]
   },
   "93": {
@@ -295,11 +306,19 @@
   "141": {
     "remove": [
       "Tools"
+    ],
+    "add": [
+      "Open Sunday"
     ]
   },
   "148": {
     "remove": [
       "For a Cause"
+    ]
+  },
+  "158": {
+    "add": [
+      "Open Sunday"
     ]
   },
   "161": {
@@ -320,6 +339,16 @@
   "172": {
     "remove": [
       "Tools"
+    ]
+  },
+  "182": {
+    "add": [
+      "For a Cause"
+    ]
+  },
+  "188": {
+    "add": [
+      "For a Cause"
     ]
   },
   "191": {
@@ -354,6 +383,11 @@
       "Tools"
     ]
   },
+  "207": {
+    "add": [
+      "For a Cause"
+    ]
+  },
   "214": {
     "remove": [
       "Pet Supplies"
@@ -370,6 +404,16 @@
   "221": {
     "remove": [
       "Jewelry & Accessories"
+    ]
+  },
+  "223": {
+    "add": [
+      "For a Cause"
+    ]
+  },
+  "237": {
+    "add": [
+      "For a Cause"
     ]
   },
   "243": {
@@ -393,6 +437,17 @@
   "257": {
     "remove": [
       "Tools"
+    ]
+  },
+  "262": {
+    "add": [
+      "For a Cause",
+      "Food & Treats"
+    ]
+  },
+  "263": {
+    "add": [
+      "For a Cause"
     ]
   },
   "268": {
@@ -492,6 +547,11 @@
       "Tools"
     ]
   },
+  "343": {
+    "add": [
+      "For a Cause"
+    ]
+  },
   "348": {
     "add": [
       "Home Goods"
@@ -577,6 +637,9 @@
   "409": {
     "remove": [
       "Collectibles"
+    ],
+    "add": [
+      "For a Cause"
     ]
   },
   "428": {
@@ -614,6 +677,21 @@
       "Food & Treats"
     ]
   },
+  "478": {
+    "add": [
+      "For a Cause"
+    ]
+  },
+  "487": {
+    "add": [
+      "For a Cause"
+    ]
+  },
+  "501": {
+    "add": [
+      "For a Cause"
+    ]
+  },
   "504": {
     "remove": [
       "For a Cause"
@@ -622,6 +700,11 @@
   "510": {
     "remove": [
       "Food & Treats"
+    ]
+  },
+  "531": {
+    "add": [
+      "For a Cause"
     ]
   },
   "547": {
@@ -673,6 +756,9 @@
   "622": {
     "remove": [
       "Plants & Garden"
+    ],
+    "add": [
+      "For a Cause"
     ]
   },
   "625": {

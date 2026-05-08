@@ -930,18 +930,9 @@
     "zipCode": "98106",
     "lat": 47.537973,
     "lng": -122.355386,
-    "description": "Women's and men's clothing, furniture, shoes, arts and crafts supplies, holiday decorations, hiking gear, and more! Everything priced to sell!",
-    "canceled": false,
-    "tags": [
-      "Clothing",
-      "Women's Clothing",
-      "Men's Clothing",
-      "Shoes & Footwear",
-      "Furniture",
-      "Art & Crafts",
-      "Sports & Outdoors",
-      "Miscellaneous"
-    ]
+    "description": "",
+    "canceled": true,
+    "tags": []
   },
   {
     "id": 566009276,
@@ -8837,15 +8828,9 @@
     "zipCode": "98136",
     "lat": 47.547821,
     "lng": -122.383456,
-    "description": "TONS of kids (age 3-6) toys, clothes, bikes, scooters, etc. Some of it is never used. (Unit A)",
-    "canceled": false,
-    "tags": [
-      "Clothing",
-      "Kids & Baby",
-      "Toys & Games",
-      "Sports & Outdoors",
-      "Cycling"
-    ]
+    "description": "",
+    "canceled": true,
+    "tags": []
   },
   {
     "id": 566009702,
@@ -11010,15 +10995,9 @@
     "zipCode": "98136",
     "lat": 47.551072,
     "lng": -122.392133,
-    "description": "3D printed fidgets and kids' toys including a cool Mercedes convertible power wheels. Possibly some assorted kid & adult clothes. We start at 11:30 due to kid sports schedules",
-    "canceled": false,
-    "tags": [
-      "Clothing",
-      "Kids & Baby",
-      "Toys & Games",
-      "Sports & Outdoors",
-      "Miscellaneous"
-    ]
+    "description": "",
+    "canceled": true,
+    "tags": []
   },
   {
     "id": 566009820,

@@ -135,12 +135,14 @@ const TAG_RULES = [
 
 const CANCELED_RE = /\bcanceled\b/i;
 
+const CANCELED_SALES = new Set([43, 51, 52, 174, 326, 349, 477, 546, 595]);
+
 const listings = JSON.parse(readFileSync(IN_PATH, "utf-8"));
 
 let taggedCount = 0;
 const processed = listings.map((listing) => {
   const desc = listing.description ?? "";
-  const canceled = CANCELED_RE.test(desc);
+  const canceled = CANCELED_RE.test(desc) || CANCELED_SALES.has(listing.saleNumber);
   const tags = canceled ? [] : TAG_RULES.filter(({ re }) => re.test(desc)).map(({ tag }) => tag);
   if (!canceled && desc && tags.length === 0) tags.push("Miscellaneous");
   if (!canceled && tags.length > 0) taggedCount++;
