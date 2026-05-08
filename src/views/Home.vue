@@ -675,6 +675,9 @@ if (importName && importIdsRaw) {
 
           <!-- Modal footer -->
           <div class="px-6 pb-5 pt-2">
+            <p class="text-xs text-center mb-3" :class="isDark ? 'text-white/40' : 'text-stone-400'">Data last synced on
+              May
+              7, 2026</p>
             <button @click="closeModal"
               class="w-full bg-coral text-white font-bold py-2.5 rounded-xl cursor-pointer hover:bg-coral/90 transition-colors">
               Got it!
