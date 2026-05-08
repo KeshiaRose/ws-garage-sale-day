@@ -564,7 +564,7 @@ if (importName && importIdsRaw) {
 
       <!-- Mobile view toggle -->
       <button @click="mobileView = mobileView === 'list' ? 'map' : 'list'"
-        class="md:hidden fixed bottom-16 left-1/2 -translate-x-1/2 z-[1001] flex items-center gap-2 bg-coral text-white font-semibold text-sm px-5 py-2.5 rounded-full shadow-lg cursor-pointer">
+        class="md:hidden fixed bottom-16 left-1/2 -translate-x-1/2 z-1001 flex items-center gap-2 bg-coral text-white font-semibold text-sm px-5 py-2.5 rounded-full shadow-lg cursor-pointer">
         <template v-if="mobileView === 'list'">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -584,7 +584,7 @@ if (importName && importIdsRaw) {
 
     <!-- About modal -->
     <Teleport to="body">
-      <div v-if="showModal" class="fixed inset-0 z-[2000] flex items-center justify-center p-4"
+      <div v-if="showModal" class="fixed inset-0 z-2000 flex items-center justify-center p-4"
         style="font-family: 'Nunito', system-ui, sans-serif">
         <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" @click="closeModal" />
         <div :class="isDark ? 'bg-dark-surface' : 'bg-white'"
@@ -687,7 +687,7 @@ if (importName && importIdsRaw) {
 
     <!-- Create List modal -->
     <Teleport to="body">
-      <div v-if="showCreateListModal" class="fixed inset-0 z-[2000] flex items-center justify-center p-4"
+      <div v-if="showCreateListModal" class="fixed inset-0 z-2000 flex items-center justify-center p-4"
         style="font-family: 'Nunito', system-ui, sans-serif">
         <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" @click="showCreateListModal = false" />
         <div :class="isDark ? 'bg-dark-surface' : 'bg-white'"
@@ -736,7 +736,7 @@ if (importName && importIdsRaw) {
 
     <!-- Duplicate list prompt -->
     <Teleport to="body">
-      <div v-if="showDuplicatePrompt" class="fixed inset-0 z-[2000] flex items-center justify-center p-4"
+      <div v-if="showDuplicatePrompt" class="fixed inset-0 z-2000 flex items-center justify-center p-4"
         style="font-family: 'Nunito', system-ui, sans-serif">
         <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" />
         <div :class="isDark ? 'bg-dark-surface' : 'bg-white'"

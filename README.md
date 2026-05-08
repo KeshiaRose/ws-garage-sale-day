@@ -28,6 +28,19 @@ node src/data/process-listings.js
 node src/data/word-freq.js
 ```
 
+### Tag overrides
+
+Automatic tag detection isn't perfect. `src/data/tag-overrides.json` lets you manually add or remove tags for specific listings, keyed by sale number:
+
+```json
+{
+  "42": { "remove": ["Miscellaneous"], "add": ["Vintage & Antiques"] },
+  "107": { "remove": ["Clothing"] }
+}
+```
+
+Overrides are applied at runtime in the app. When running locally, navigate to `/admin.html` for a visual interface to manage overrides without editing JSON by hand. Changes save directly to `tag-overrides.json`. The admin page is only available in dev it is not included in the production build. If you make changes, create a pull request to see them updated on the live site.
+
 ## Contributing
 
 If you see any mistakes or have suggestions, please open an issue or submit a pull request.
