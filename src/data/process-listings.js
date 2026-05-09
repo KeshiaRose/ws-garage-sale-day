@@ -135,7 +135,7 @@ const TAG_RULES = [
 
 const CANCELED_RE = /\bcanceled\b/i;
 
-const CANCELED_SALES = new Set([43, 51, 52, 174, 326, 349, 477, 546, 595]);
+const CANCELED_SALES = new Set([43, 51, 52, 75, 84, 174, 326, 349, 371, 477, 546, 595]);
 
 const listings = JSON.parse(readFileSync(IN_PATH, "utf-8"));
 

@@ -1369,18 +1369,14 @@
   {
     "id": 566009299,
     "saleNumber": 75,
-    "address": "8144 10th Ave SW",
-    "fullAddress": "8144 10th Ave SW 98106",
+    "address": "",
+    "fullAddress": " 98106",
     "zipCode": "98106",
     "lat": 47.528814,
     "lng": -122.347799,
-    "description": "A collection of household items, LEGO sets (Star Wars, Ninjago, Minecraft), Outdoor gear, fly fishing poles, and more! Cash or Venmo accepted",
-    "canceled": false,
-    "tags": [
-      "Toys & Games",
-      "Sports & Outdoors",
-      "Home Goods"
-    ]
+    "description": "",
+    "canceled": true,
+    "tags": []
   },
   {
     "id": 566009300,
@@ -1525,21 +1521,14 @@
   {
     "id": 566009308,
     "saleNumber": 84,
-    "address": "5006 SW Hanford",
-    "fullAddress": "5006 SW Hanford 98116",
+    "address": "",
+    "fullAddress": " 98116",
     "zipCode": "98116",
     "lat": 47.575839,
     "lng": -122.395855,
-    "description": "Selling: Climbing and camping gear, rooftop tent, office chair; (almost or) free: screws, nuts, and other bits of hardware, wood, and clothes",
-    "canceled": false,
-    "tags": [
-      "Clothing",
-      "Furniture",
-      "Tools",
-      "Sports & Outdoors",
-      "Free / PWYW",
-      "Office & School"
-    ]
+    "description": "",
+    "canceled": true,
+    "tags": []
   },
   {
     "id": 566009309,
@@ -3723,7 +3712,7 @@
     "zipCode": "98116",
     "lat": 47.567886,
     "lng": -122.391828,
-    "description": "Selling Saturday and Sunday 10-4. Will have: pc monitor, gaming accessories, baby toys, baby furniture, baby clothes, kids' clothes and shoes, plus-size clothing, shoes, furniture, and much more!",
+    "description": "Selling Saturday 10-4. Will have: pc monitor, gaming accessories, baby toys, baby furniture, baby clothes, kids' clothes and shoes, plus-size clothing, shoes, furniture, and much more!",
     "canceled": false,
     "tags": [
       "Clothing",
@@ -3732,8 +3721,7 @@
       "Kids & Baby",
       "Toys & Games",
       "Electronics",
-      "Jewelry & Accessories",
-      "Open Sunday"
+      "Jewelry & Accessories"
     ]
   },
   {
@@ -6863,28 +6851,14 @@
   {
     "id": 566009595,
     "saleNumber": 371,
-    "address": "3725 SW Prescott Pl",
-    "fullAddress": "3725 SW Prescott Pl 98126",
+    "address": "",
+    "fullAddress": " 98126",
     "zipCode": "98126",
     "lat": 47.582309,
     "lng": -122.378791,
-    "description": "We are moving! Lots to sell! Tools, bikes, houseware, men's, women's, and baby clothes & toys, books + free drinks & baked goods! (Sale will take place in the back [garage] alley of home)",
-    "canceled": false,
-    "tags": [
-      "Clothing",
-      "Women's Clothing",
-      "Men's Clothing",
-      "Kids & Baby",
-      "Toys & Games",
-      "Books",
-      "Tools",
-      "Sports & Outdoors",
-      "Home Goods",
-      "Food & Treats",
-      "Free / PWYW",
-      "Cycling",
-      "Miscellaneous"
-    ]
+    "description": "",
+    "canceled": true,
+    "tags": []
   },
   {
     "id": 566009596,
@@ -8823,8 +8797,8 @@
   {
     "id": 566009701,
     "saleNumber": 477,
-    "address": "6019 Fauntleroy Way SW",
-    "fullAddress": "6019 Fauntleroy Way SW 98136",
+    "address": "",
+    "fullAddress": " 98136",
     "zipCode": "98136",
     "lat": 47.547821,
     "lng": -122.383456,
@@ -10990,8 +10964,8 @@
   {
     "id": 566009819,
     "saleNumber": 595,
-    "address": "5636 47th Ave SW",
-    "fullAddress": "5636 47th Ave SW 98136",
+    "address": "",
+    "fullAddress": " 98136",
     "zipCode": "98136",
     "lat": 47.551072,
     "lng": -122.392133,
@@ -11026,7 +11000,7 @@
     "zipCode": "98136",
     "lat": 47.551577,
     "lng": -122.388213,
-    "description": "Lots of women's & men's clothing, kitchen & home goods, outdoor equipment, toys, and more! Friday & Saturday",
+    "description": "Lots of women's & men's clothing, kitchen & home goods, outdoor equipment, toys, and more! Saturday only (updated)",
     "canceled": false,
     "tags": [
       "Clothing",
@@ -11269,7 +11243,7 @@
     "zipCode": "98136",
     "lat": 47.549898,
     "lng": -122.388278,
-    "description": "Tools (nail guns, hand tools, power tools), Electronics (Gaming / TV), Housewares, Books",
+    "description": "Tools (nail guns, hand tools, power tools), Electronics (Gaming / TV), Housewares, Books. Also selling mechanic keyboards and Mac minis.",
     "canceled": false,
     "tags": [
       "Toys & Games",
@@ -11631,7 +11605,7 @@
     "zipCode": "98146",
     "lat": 47.505129,
     "lng": -122.373855,
-    "description": "Lots of baby gear and toys! Bjorn bouncer, brand-new BOB wagon. Newborn-4t clothes. Women's M/L clothing; recumbent bike, washer/dryer. Everything must go! Trying to downsize in these financial hard times! We are a family of 4, two children under 5, looking to clear our a lot of old toys, clothes, and baby gear!",
+    "description": "Lots of baby gear and toys! Bjorn bouncer, brand-new BOB wagon. Newborn-4t clothes. Women's M/L clothing; recumbent bike, washer/dryer. Everything must go!",
     "canceled": false,
     "tags": [
       "Clothing",
