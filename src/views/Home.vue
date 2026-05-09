@@ -136,7 +136,36 @@ const correctedWords = computed(() => {
   return raw.map((w, i) => (trailingSpace || i < raw.length - 1) ? correctWord(w) : w)
 })
 
+// All words fully corrected, including the last in-progress word
+const fullyCorrectWords = computed(() =>
+  search.value.trim().toLowerCase().split(/\s+/).filter(Boolean)
+    .map(w => w.replace(/^#/, ''))
+    .map(correctWord)
+)
+
 const correctedQuery = computed(() => correctedWords.value.join(' '))
+
+// Whether we're showing fuzzy fallback results (no direct matches found)
+const inFuzzyFallback = computed(() => {
+  const words = correctedWords.value
+  const fuzzyWords = fullyCorrectWords.value
+  if (!words.length || words.join(' ') === fuzzyWords.join(' ')) return false
+  const exact = exactWords.value
+  const saleNum = (l) => String(l.saleNumber).padStart(3, '0')
+  return !listings.some(l => {
+    if (activeTags.value.size > 0 && !l.tags.some(t => activeTags.value.has(t))) return false
+    const hay = `${l.description} ${l.address} ${l.fullAddress} ${saleNum(l)}`.toLowerCase()
+    return matchesWords(hay, words, exact)
+  })
+})
+
+// For highlighting: include corrected words only when in fuzzy fallback mode
+const highlightQuery = computed(() => {
+  const raw = correctedWords.value.join(' ')
+  const corrected = fullyCorrectWords.value.join(' ')
+  if (raw === corrected) return raw
+  return inFuzzyFallback.value ? `${raw} ${corrected}` : raw
+})
 
 // Words followed by a space are "done" — match them on word boundaries only
 function escapeRegex(s) {
@@ -148,30 +177,45 @@ const exactWords = computed(() => {
   return new Set(words.filter((_, i) => trailingSpace || i < words.length - 1))
 })
 
+function matchesWords(hay, words, exact) {
+  return words.every(w =>
+    exact.has(w)
+      ? new RegExp(`\\b${escapeRegex(w)}\\b`).test(hay)
+      : hay.includes(w)
+  )
+}
+
 const filteredListings = computed(() => {
   const words = correctedWords.value
+  const fuzzyWords = fullyCorrectWords.value
   const exact = exactWords.value
   const q = correctedQuery.value
-
   const saleNum = (l) => String(l.saleNumber).padStart(3, '0')
 
-  return listings
-    .filter(l => {
-      if (activeTags.value.size > 0 && !l.tags.some(t => activeTags.value.has(t))) return false
-      if (!words.length) return true
-      const hay = `${l.description} ${l.address} ${l.fullAddress} ${saleNum(l)}`.toLowerCase()
-      return words.every(w =>
-        exact.has(w)
-          ? new RegExp(`\\b${escapeRegex(w)}\\b`).test(hay)
-          : hay.includes(w)
-      )
-    })
-    .sort((a, b) => {
-      if (!words.length) return 0
-      const aExact = `${a.description} ${a.address} ${saleNum(a)}`.toLowerCase().includes(q)
-      const bExact = `${b.description} ${b.address} ${saleNum(b)}`.toLowerCase().includes(q)
-      return bExact - aExact
-    })
+  const tagFiltered = activeTags.value.size > 0
+    ? listings.filter(l => l.tags.some(t => activeTags.value.has(t)))
+    : listings
+
+  if (!words.length) return tagFiltered
+
+  const directMatches = tagFiltered.filter(l => {
+    const hay = `${l.description} ${l.address} ${l.fullAddress} ${saleNum(l)}`.toLowerCase()
+    return matchesWords(hay, words, exact)
+  })
+
+  // Only fall back to fuzzy results if no direct matches
+  const results = (inFuzzyFallback.value)
+    ? tagFiltered.filter(l => {
+        const hay = `${l.description} ${l.address} ${l.fullAddress} ${saleNum(l)}`.toLowerCase()
+        return matchesWords(hay, fuzzyWords, exact)
+      })
+    : directMatches
+
+  return results.sort((a, b) => {
+    const hayA = `${a.description} ${a.address} ${saleNum(a)}`.toLowerCase()
+    const hayB = `${b.description} ${b.address} ${saleNum(b)}`.toLowerCase()
+    return hayB.includes(q) - hayA.includes(q)
+  })
 })
 
 const listingById = Object.fromEntries(listings.map(l => [l.saleNumber, l]))
@@ -571,7 +615,7 @@ if (importName && importIdsRaw) {
             </button>
             <template v-if="displayedListings.length > 0">
               <ListingCard v-for="listing in displayedListings" :key="listing.saleNumber"
-                :id="`listing-${listing.saleNumber}`" :listing="listing" :searchQuery="correctedQuery"
+                :id="`listing-${listing.saleNumber}`" :listing="listing" :searchQuery="highlightQuery"
                 :selected="listing.saleNumber === selectedId" :isDark="isDark"
                 :isSaved="savedIds.has(listing.saleNumber)" :showReorder="activeTab === 'favorites'"
                 :canMoveUp="savedOrder.indexOf(listing.saleNumber) > 0"
@@ -722,7 +766,9 @@ if (importName && importIdsRaw) {
 
           <!-- Modal footer -->
           <div class="px-6 pb-5 pt-2">
-            <p class="text-xs text-center mb-3" :class="isDark ? 'text-white/40' : 'text-stone-400'">Data last synced on {{ syncMeta.lastSynced }}</p>
+            <p class="text-xs text-center mb-3" :class="isDark ? 'text-white/40' : 'text-stone-400'">Data last synced on
+              {{
+                syncMeta.lastSynced }}</p>
             <button @click="closeModal"
               class="w-full bg-coral text-white font-bold py-2.5 rounded-xl cursor-pointer hover:bg-coral/90 transition-colors">
               Got it!
