@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 
 const props = defineProps({
   listing: Object,
@@ -10,10 +10,19 @@ const props = defineProps({
   showReorder: Boolean,
   canMoveUp: Boolean,
   canMoveDown: Boolean,
+  lists: { type: Array, default: () => [] },
+  showRemoveFromList: Boolean,
 })
 
-const emit = defineEmits(['click', 'save', 'move-up', 'move-down'])
+const emit = defineEmits(['click', 'save', 'move-up', 'move-down', 'add-to-list', 'remove-from-list'])
 const copied = ref(false)
+const showListDropdown = ref(false)
+
+function closeDropdown() { showListDropdown.value = false }
+watch(showListDropdown, val => {
+  if (val) setTimeout(() => document.addEventListener('click', closeDropdown), 0)
+  else document.removeEventListener('click', closeDropdown)
+})
 
 const TAG_COLORS = {
   'Clothing': 'bg-rose-100 text-rose-700',
@@ -150,23 +159,60 @@ async function copyAddress() {
         </div>
 
         <!-- Actions -->
-        <div :class="isDark ? 'text-white/30' : 'text-stone-400'" class="flex items-center gap-3 text-xs">
-          <a :href="mapsUrl" target="_blank" rel="noopener" @click.stop
-            class="cursor-pointer hover:text-coral transition-colors flex items-center gap-1">
-            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div :class="isDark ? 'text-white/30' : 'text-stone-400'" class="flex items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-3">
+            <a :href="mapsUrl" target="_blank" rel="noopener" @click.stop
+              class="cursor-pointer hover:text-coral transition-colors flex items-center gap-1">
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+              Google Maps
+            </a>
+            <button @click.stop="copyAddress"
+              class="cursor-pointer hover:text-coral transition-colors flex items-center gap-1">
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+              </svg>
+              {{ copied ? 'Copied!' : 'Copy address' }}
+            </button>
+          </div>
+
+          <!-- Remove from list -->
+          <button v-if="showRemoveFromList" @click.stop="emit('remove-from-list')"
+            class="cursor-pointer hover:text-red-400 transition-colors shrink-0" title="Remove from list">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
             </svg>
-            Google Maps
-          </a>
-          <button @click.stop="copyAddress"
-            class="cursor-pointer hover:text-coral transition-colors flex items-center gap-1">
-            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-            </svg>
-            {{ copied ? 'Copied!' : 'Copy address' }}
           </button>
+
+          <!-- Add to list dropdown -->
+          <div v-else-if="lists.length > 0" class="relative shrink-0">
+            <button @click.stop="showListDropdown = !showListDropdown"
+              :class="showListDropdown ? (isDark ? 'text-white' : 'text-stone-600') : ''"
+              class="cursor-pointer hover:text-coral transition-colors flex items-center gap-1">
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+              Add to list
+            </button>
+            <div v-if="showListDropdown" @click.stop
+              :class="isDark ? 'bg-dark-surface border-dark-border' : 'bg-white border-stone-200'"
+              class="absolute bottom-full right-0 mb-1.5 rounded-lg border shadow-lg min-w-max z-50 py-1">
+              <button v-for="list in lists" :key="list.name"
+                @click.stop="emit('add-to-list', list.name); showListDropdown = false"
+                :class="isDark ? 'text-white/70 hover:bg-dark-border hover:text-white' : 'text-stone-600 hover:bg-stone-50 hover:text-stone-900'"
+                class="w-full text-left px-3 py-1.5 text-xs transition-colors cursor-pointer flex items-center gap-2">
+                <svg class="w-3 h-3 shrink-0 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                </svg>
+                {{ list.name }}
+              </button>
+            </div>
+          </div>
         </div>
 
       </div>

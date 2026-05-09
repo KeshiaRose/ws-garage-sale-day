@@ -253,6 +253,21 @@ function deleteList(name) {
   persistLists()
 }
 
+function addToList(saleNumber, listName) {
+  const list = savedLists.value.find(l => l.name === listName)
+  if (!list || list.ids.includes(saleNumber)) return
+  list.ids = [...list.ids, saleNumber]
+  persistLists()
+}
+
+function removeFromList(saleNumber) {
+  if (!activeList.value) return
+  activeList.value = { ...activeList.value, ids: activeList.value.ids.filter(id => id !== saleNumber) }
+  const idx = savedLists.value.findIndex(l => l.name === activeList.value.name)
+  if (idx >= 0) savedLists.value[idx] = activeList.value
+  persistLists()
+}
+
 function applyImport(name, ids) {
   const newList = { name, ids }
   const idx = savedLists.value.findIndex(l => l.name === name)
@@ -480,7 +495,7 @@ if (importName && importIdsRaw) {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
             </svg>
-            {{ copiedListName === activeList.name ? 'Copied!' : 'Share' }}
+            {{ copiedListName === activeList.name ? 'Copied!' : 'Share Snapshot' }}
           </button>
         </div>
 
@@ -518,7 +533,7 @@ if (importName && importIdsRaw) {
                   <button @click="copyShareUrl(list)"
                     :class="copiedListName === list.name ? 'bg-coral text-white' : isDark ? 'bg-dark-border text-white/70 hover:text-white' : 'bg-stone-100 text-stone-600 hover:text-stone-900'"
                     class="text-xs font-semibold px-2.5 py-1 rounded-lg transition-colors cursor-pointer">
-                    {{ copiedListName === list.name ? 'Copied!' : 'Share' }}
+                    {{ copiedListName === list.name ? 'Copied!' : 'Share Snapshot' }}
                   </button>
                   <button @click="deleteList(list.name)"
                     :class="isDark ? 'text-white/20 hover:text-red-400' : 'text-stone-300 hover:text-red-400'"
@@ -558,8 +573,11 @@ if (importName && importIdsRaw) {
                 :isSaved="savedIds.has(listing.saleNumber)" :showReorder="activeTab === 'favorites'"
                 :canMoveUp="savedOrder.indexOf(listing.saleNumber) > 0"
                 :canMoveDown="savedOrder.indexOf(listing.saleNumber) < savedOrder.length - 1"
-                @click="selectedId = listing.saleNumber" @save="toggleSave(listing.saleNumber)"
-                @move-up="moveSaved(listing.saleNumber, -1)" @move-down="moveSaved(listing.saleNumber, 1)" />
+                :lists="activeTab === 'lists' && activeList ? [] : savedLists"
+                :showRemoveFromList="activeTab === 'lists' && !!activeList" @click="selectedId = listing.saleNumber"
+                @save="toggleSave(listing.saleNumber)" @move-up="moveSaved(listing.saleNumber, -1)"
+                @move-down="moveSaved(listing.saleNumber, 1)" @add-to-list="addToList(listing.saleNumber, $event)"
+                @remove-from-list="removeFromList(listing.saleNumber)" />
             </template>
             <div v-else :class="isDark ? 'text-white/40' : 'text-stone-400'" class="text-center py-16">
               <template v-if="activeTab === 'favorites'">
