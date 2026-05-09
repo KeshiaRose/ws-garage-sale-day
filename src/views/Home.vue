@@ -128,11 +128,13 @@ const allTags = Object.keys(tagFreq)
     return ai - bi
   })
 
-const correctedWords = computed(() =>
-  search.value.trim().toLowerCase().split(/\s+/).filter(Boolean)
+const correctedWords = computed(() => {
+  const raw = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean)
     .map(w => w.replace(/^#/, ''))
-    .map(correctWord)
-)
+  const trailingSpace = search.value.endsWith(' ')
+  // Only fuzzy-correct completed words — skip the last word while still being typed
+  return raw.map((w, i) => (trailingSpace || i < raw.length - 1) ? correctWord(w) : w)
+})
 
 const correctedQuery = computed(() => correctedWords.value.join(' '))
 

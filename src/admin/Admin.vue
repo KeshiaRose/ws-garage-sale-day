@@ -44,6 +44,7 @@ const descOverrides = ref({})
 const searchInput = ref('')
 const activeTag = ref(null)
 const filterMode = ref('has') // 'has' | 'missing'
+const descOverrideFilter = ref(false)
 const saved = ref(true)
 const saving = ref(false)
 const addingTagFor = ref(null)
@@ -87,6 +88,7 @@ const availableTags = computed(() => {
 const filtered = computed(() => {
   const q = searchInput.value.trim().toLowerCase()
   return listings.filter(l => {
+    if (descOverrideFilter.value && !getDescOverride(l.saleNumber)) return false
     if (activeTag.value) {
       const hasTag = effectiveTags(l).includes(activeTag.value)
       if (filterMode.value === 'has' && !hasTag) return false
@@ -228,8 +230,8 @@ function clearDescOverride(saleNumber) {
     <!-- Header -->
     <header class="bg-navy px-6 py-4 flex items-center justify-between sticky top-0 z-10 shadow-lg">
       <div>
-        <h1 class="text-white font-bold text-lg leading-tight">Tag Overrides Admin</h1>
-        <p class="text-white/40 text-xs mt-0.5">Dev only — changes write directly to tag-overrides.json</p>
+        <h1 class="text-white font-bold text-lg leading-tight">Overrides Admin</h1>
+        <p class="text-white/40 text-xs mt-0.5">Local dev only — changes write directly to override files</p>
       </div>
       <button @click="saveOverrides" :disabled="saved || saving"
         :class="saved ? 'bg-white/10 text-white/30 cursor-default' : saving ? 'bg-white/20 text-white/60 cursor-wait' : 'bg-coral text-white hover:bg-coral/90 cursor-pointer'"
@@ -261,6 +263,15 @@ function clearDescOverride(saleNumber) {
           :class="activeTag === null ? 'bg-navy text-white' : 'bg-peach/40 text-navy hover:bg-peach/70'"
           class="text-xs font-semibold px-3 py-1 rounded-full transition-colors cursor-pointer shrink-0">
           All
+        </button>
+        <button @click="descOverrideFilter = !descOverrideFilter"
+          :class="descOverrideFilter ? 'bg-sky-500 text-white' : 'bg-sky-100 text-sky-700 hover:bg-sky-200'"
+          class="text-xs font-semibold px-3 py-1 rounded-full transition-colors cursor-pointer shrink-0 flex items-center gap-1">
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+          </svg>
+          Description modified
         </button>
         <button v-for="tag in availableTags" :key="tag"
           @click="activeTag = activeTag === tag ? null : tag; filterMode = 'has'"
