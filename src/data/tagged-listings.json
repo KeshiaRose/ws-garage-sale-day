@@ -1,19 +1,14 @@
 [
   {
     "id": 566009225,
-    "saleNumber": 1,
     "address": "1206 SW Barton",
     "fullAddress": "1206 SW Barton 98106",
     "zipCode": "98106",
     "lat": 47.521175,
     "lng": -122.351067,
-    "description": "Huge family garage sale: Clothing, outdoor stuff, art, great prices, friendly vibes",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Clothing",
-      "Art & Crafts",
-      "Sports & Outdoors"
-    ]
+    "tags": []
   },
   {
     "id": 566009226,
@@ -31,37 +26,25 @@
   },
   {
     "id": 566009227,
-    "saleNumber": 3,
     "address": "7527 19th Ave SW",
     "fullAddress": "7527 19th Ave SW 98106",
     "zipCode": "98106",
     "lat": 47.534671,
     "lng": -122.358567,
-    "description": "WANDERLUST NURSERY: Rare and unusual plants from around the world. Exotic Fruits, Herbs, Palms, Natives, more! Browse wanderlustnursery.com. (No retail store. TUse sale day to shop in person!) 9 am-5 pm.",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Plants & Garden",
-      "Food & Treats"
-    ]
+    "tags": []
   },
   {
     "id": 566009228,
-    "saleNumber": 4,
     "address": "9858 26th Ave SW",
     "fullAddress": "9858 26th Ave SW 98106",
     "zipCode": "98106",
     "lat": 47.51386,
     "lng": -122.365536,
-    "description": "Pay-What-You-Wish sale! Kids' gear <6 (all-gender), toys, books, sports equipment, and PWYW lemonade stand! (+folding water rower, $100). We keep growing! We've been a 3-family sale for the last few years and are growing to 5 families + lemonade stand this year!",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Kids & Baby",
-      "Toys & Games",
-      "Books",
-      "Sports & Outdoors",
-      "Food & Treats",
-      "Free / PWYW"
-    ]
+    "tags": []
   },
   {
     "id": 566009229,
@@ -81,39 +64,25 @@
   },
   {
     "id": 566009230,
-    "saleNumber": 6,
     "address": "2016 SW Trenton",
     "fullAddress": "2016 SW Trenton 98106",
     "zipCode": "98106",
     "lat": 47.524917,
     "lng": -122.359973,
-    "description": "Couch, table for sale. Everything must go. Will be open Saturday and Sunday, 9-4. Sale will be in alley when you arrive. Walk down past the trash cans",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Furniture",
-      "Open Sunday",
-      "Miscellaneous"
-    ]
+    "tags": []
   },
   {
     "id": 566009231,
-    "saleNumber": 7,
     "address": "5400 25th Ave SW",
     "fullAddress": "5400 25th Ave SW 98106",
     "zipCode": "98106",
     "lat": 47.553595,
     "lng": -122.36405,
-    "description": "GRANOLA MOMS SALE! Vintage & Bohemian • Baby Gear • Quality Women's and Men's wear • Home Goods! SATURDAY ONLY priced to $ell!",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Clothing",
-      "Women's Clothing",
-      "Men's Clothing",
-      "Kids & Baby",
-      "Vintage & Antiques",
-      "Home Goods",
-      "Miscellaneous"
-    ]
+    "tags": []
   },
   {
     "id": 566009232,
@@ -247,22 +216,14 @@
   },
   {
     "id": 566009239,
-    "saleNumber": 15,
     "address": "7141 27th Ave SW",
     "fullAddress": "7141 27th Ave SW 98106",
     "zipCode": "98106",
     "lat": 47.538243,
     "lng": -122.367904,
-    "description": "Housewares, art, kids' toys, games, kids' books, books for adults, electronics",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Kids & Baby",
-      "Toys & Games",
-      "Books",
-      "Art & Crafts",
-      "Electronics",
-      "Home Goods"
-    ]
+    "tags": []
   },
   {
     "id": 566009240,
@@ -352,21 +313,14 @@
   },
   {
     "id": 566009244,
-    "saleNumber": 20,
     "address": "8402 7th Ave SW",
     "fullAddress": "8402 7th Ave SW 98106",
     "zipCode": "98106",
     "lat": 47.528093,
     "lng": -122.343912,
-    "description": "Quilt premium fabrics, tools, excellent condition leather bags (including Portland Leather, vintage Coach, Cole Haan, Kate Spade), Tibetan Buddhist books. Only a mile north of Roxbury / 8th Ave SW, two blocks north  of Westcrest Park.",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Books",
-      "Art & Crafts",
-      "Vintage & Antiques",
-      "Tools",
-      "Jewelry & Accessories"
-    ]
+    "tags": []
   },
   {
     "id": 566009245,
@@ -477,40 +431,25 @@
   },
   {
     "id": 566009251,
-    "saleNumber": 27,
     "address": "8139 8th Ave SW",
     "fullAddress": "8139 8th Ave SW 98106",
     "zipCode": "98106",
     "lat": 47.528981,
     "lng": -122.345761,
-    "description": "Tons of new clothing-1X-3X, shoes 8,9, small appliances, tons of jewelry, new Size 7 rings, necklaces, and bracelets with gemstones",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Clothing",
-      "Shoes & Footwear",
-      "Kitchen & Dining",
-      "Jewelry & Accessories"
-    ]
+    "tags": []
   },
   {
     "id": 566009252,
-    "saleNumber": 28,
     "address": "8815 22nd Ave SW",
     "fullAddress": "8815 22nd Ave SW 98106",
     "zipCode": "98106",
     "lat": 47.52417,
     "lng": -122.362159,
-    "description": "A \"we're done having kids\" house purge - Baby clothes newborn - 2T * Baby Gear * Toys * Board books * Other random house things * Coming from a smoke-free, dog friendly, cat-free home",
+    "description": "",
     "canceled": false,
-    "tags": [
-      "Clothing",
-      "Kids & Baby",
-      "Toys & Games",
-      "Books",
-      "Pet Supplies",
-      "Free / PWYW",
-      "Miscellaneous"
-    ]
+    "tags": []
   },
   {
     "id": 566009253,
