@@ -18,6 +18,8 @@ let tileLayer = null
 let markerGroup = null
 let markerMap = {}
 let prevSelectedId = null
+let userMarker = null
+let geoWatchId = null
 
 onMounted(async () => {
   try {
@@ -41,9 +43,36 @@ onMounted(async () => {
   markerGroup = L.layerGroup().addTo(map)
   map.on('click', () => emit('select', null))
   renderMarkers()
+
+  if (navigator.geolocation) {
+    geoWatchId = navigator.geolocation.watchPosition(
+      ({ coords }) => {
+        const { latitude, longitude } = coords
+        if (userMarker) {
+          userMarker.setLatLng([latitude, longitude])
+        } else {
+          userMarker = L.marker([latitude, longitude], {
+            icon: L.divIcon({
+              className: '',
+              html: `<div style="width:14px;height:14px;border-radius:50%;background:#3b82f6;border:2.5px solid white;box-shadow:0 1px 6px rgba(59,130,246,0.6)"></div>`,
+              iconSize: [14, 14],
+              iconAnchor: [7, 7],
+            }),
+            zIndexOffset: 1000,
+            interactive: false,
+          }).addTo(map)
+        }
+      },
+      err => console.warn('Geolocation unavailable:', err.message),
+      { enableHighAccuracy: true, maximumAge: 10000 }
+    )
+  }
 })
 
-onUnmounted(() => map?.remove())
+onUnmounted(() => {
+  if (geoWatchId !== null) navigator.geolocation.clearWatch(geoWatchId)
+  map?.remove()
+})
 
 watch(() => props.listings, renderMarkers)
 watch(() => props.savedIds, renderMarkers)
@@ -115,12 +144,17 @@ function renderMarkers() {
     const marker = L.marker([listing.lat, listing.lng], { icon: makeIcon(isSelected, isSaved) })
 
     const num = String(listing.saleNumber).padStart(3, '0')
+    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(listing.fullAddress + ', Seattle, WA')}`
     marker.bindPopup(
       `<div style="font-family:'Nunito',system-ui,sans-serif;min-width:180px;max-width:260px">
         <div style="font-weight:700;font-size:13px;margin-bottom:3px">
           <span style="color:#E8705C">#${num}</span> ${listing.address}
         </div>
-        ${listing.description ? `<div style="font-size:12px;color:#78716c;line-height:1.4">${listing.description}</div>` : ''}
+        ${listing.description ? `<div style="font-size:12px;color:#78716c;line-height:1.4;margin-bottom:6px">${listing.description}</div>` : '<div style="margin-bottom:6px"></div>'}
+        <a href="${mapsUrl}" target="_blank" rel="noopener" style="font-size:11px;color:#E8705C;text-decoration:none;display:inline-flex;align-items:center;gap:3px;font-weight:600">
+          <svg width="11" height="11" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          Google Maps
+        </a>
       </div>`,
       { maxWidth: 300 }
     )
