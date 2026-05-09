@@ -3,6 +3,7 @@ import { ref, computed, watch, nextTick } from 'vue'
 import allListings from '../data/tagged-listings.json'
 import tagOverrides from '../data/tag-overrides.json'
 import descriptionOverrides from '../data/description-overrides.json'
+import syncMeta from '../data/sync-meta.json'
 import ListingCard from '../components/ListingCard.vue'
 import MapView from '../components/MapView.vue'
 
@@ -719,9 +720,7 @@ if (importName && importIdsRaw) {
 
           <!-- Modal footer -->
           <div class="px-6 pb-5 pt-2">
-            <p class="text-xs text-center mb-3" :class="isDark ? 'text-white/40' : 'text-stone-400'">Data last synced on
-              May
-              9, 2026 6:45 AM PT</p>
+            <p class="text-xs text-center mb-3" :class="isDark ? 'text-white/40' : 'text-stone-400'">Data last synced on {{ syncMeta.lastSynced }}</p>
             <button @click="closeModal"
               class="w-full bg-coral text-white font-bold py-2.5 rounded-xl cursor-pointer hover:bg-coral/90 transition-colors">
               Got it!
