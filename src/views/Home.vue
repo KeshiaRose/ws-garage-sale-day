@@ -112,9 +112,9 @@ const TAG_ORDER = [
   'Furniture', 'Home Goods', 'Kitchen & Dining', 'Appliances', 'Tools',
   'Books', 'Art & Crafts', 'Toys & Games', 'Music & Records', 'Movies & Entertainment', 'Electronics', 'Collectibles', 'Vintage & Antiques',
   'Sports & Outdoors', 'Cycling', 'Automotive',
-  'Plants & Garden', 'Pet Supplies',
-  'Food & Treats', 'Free / PWYW', 'For a Cause',
-  'Office & School', 'Holiday & Seasonal', 'Open Sunday', 'Miscellaneous',
+  'Plants & Garden', 'Pet Supplies', 'Office & School', 'Holiday & Seasonal',
+  'Food & Treats', 'Free / PWYW', 'Miscellaneous',
+  'For a Cause', 'Open Sunday',
 ]
 
 const allTags = Object.keys(tagFreq)
