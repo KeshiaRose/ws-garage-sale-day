@@ -369,7 +369,7 @@ if (importName && importIdsRaw) {
           West Seattle Garage Sale Day <span class="text-coral">2026</span>
         </h1>
         <p class="text-white/40 text-xs mt-0.5 flex items-center gap-1 whitespace-nowrap">
-          Saturday May 9
+          May 9, 2026 · Event has ended
           <span class="hidden md:inline-flex items-center gap-1">
             &middot;
             <a href="https://westseattleblog.com/wsgaragesaledaymap/"
@@ -423,6 +423,14 @@ if (importName && importIdsRaw) {
         </button>
       </div>
     </header>
+
+    <!-- Event-over banner -->
+    <div class="bg-amber-50 border-b border-amber-200 px-4 py-2 shrink-0 flex items-center justify-center gap-2 text-amber-800 text-xs font-semibold text-center">
+      <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      The 2026 West Seattle Garage Sale Day has ended. Check back in 2027!
+    </div>
 
     <!-- Search + filters -->
     <div :class="isDark ? 'bg-dark-surface border-dark-border' : 'bg-white border-stone-200'"
@@ -694,15 +702,21 @@ if (importName && importIdsRaw) {
           <!-- Modal body -->
           <div class="px-6 py-5 space-y-4 max-h-[70vh] overflow-y-auto">
 
+            <!-- Event over notice -->
+            <div class="bg-amber-50 border border-amber-200 rounded-xl p-3.5">
+              <p class="font-bold text-amber-700 text-sm mb-1">The 2026 sale has ended</p>
+              <p class="text-sm" :class="isDark ? 'text-white/70' : 'text-stone-600'">
+                The West Seattle Garage Sale Day was on May 9, 2026. The map is still here to browse, but the listings are from this year's event. Check back in 2027!
+              </p>
+            </div>
+
             <!-- Disclaimer -->
             <div class="bg-coral/10 border border-coral/30 rounded-xl p-3.5">
               <p class="font-bold text-coral text-sm mb-1">Not the official map</p>
               <p class="text-sm" :class="isDark ? 'text-white/70' : 'text-stone-600'">
                 This is a hobby project by
                 <a href="https://keshiarose.com" target="_blank" rel="noopener"
-                  class="underline hover:text-coral">Keshia
-                  Rose</a>. I made this map to make the giant list of garage sales easier to navigate.
-                For the official map, with the most recent information and updates, visit the
+                  class="underline hover:text-coral">Keshia Rose</a>. For the official map visit the
                 <a href="https://westseattleblog.com/wsgaragesaledaymap/" target="_blank" rel="noopener"
                   class="underline hover:text-coral">West Seattle Blog</a>.
               </p>
